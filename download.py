@@ -4,11 +4,16 @@
 import requests
 
 
-lista_slow={}
-
 #Tworzymy katalog linków do piosenek
 
-def pobierz_linki(katalog_atrystow):
+plik = open("C:\\Users\\Adam\\Source\\Repos\\Blaslagh\\Wizu\\katalog_linkow.txt","r")
+try:
+	z_pliku = plik.read()
+finally:
+	plik.close()
+
+
+def pobierz_linki(katalog_atrystow=z_pliku.split()):
     try:
         tab_link=[]
         for artysta in katalog_atrystow:
@@ -24,33 +29,34 @@ def pobierz_linki(katalog_atrystow):
                             if "https://www.tekstowo.pl/"+i in tab_link:
                                 continue
                             tab_link.append("https://www.tekstowo.pl/"+i)
+        return(tab_link)
     except:
         print("B³¹d pobierania linków")
+    return
 
+def pobierz_tekst(link):
+    try:
+        temp=requests.get(link)
+        temp.encoding="utf-8"
+        rok="NW"
+        for i in temp.text.split("</div>"):
+            if ('Rok powstania:' in i):
+                for j in i.split("</tr>"):
+                    if ('Rok powstania:' in j):
+                        try:
+                            rok=''.join(k for k in j if k.isdigit())[0:4]
+                        except:
+                            print("Brak roku")
+                        break
+                break
+            if ('class="song-text"' in i): 
+                wlasciwy_kontener=i
+        return (rok, wlasciwy_kontener.replace("<br />","").replace(")","").replace("(","").replace("?","").replace(",","").replace(".","").replace("!","").lower().split()[4:-15])
+    except:
+        print("B³¹d pobierania tekstu "+link)
+    return
 
-#Ka¿dy tekst z piosenek pobieramy i przetwarzamy
+tab_link=pobierz_linki()
 
-for link in tab_link:
-    temp=requests.get(link)
-    temp.encoding="utf-8"
-    for i in temp.text.split("</div>"):
-        if ('class="song-text"' in i): 
-            wlasciwy_kontener=i
-            break
-
-    tekst=wlasciwy_kontener.replace("<br />","").replace(")","").replace("(","").replace("?","").replace(",","").replace(".","").replace("!","").lower().split()[4:-15]
-    for slowo in tekst:
-        if slowo in lista:
-            lista[slowo] += wlasciwy_kontener.count(slowo)
-        else:
-            lista[slowo] = wlasciwy_kontener.count(slowo)
-
-
-#Zamieniamy nasz¹ listê na tablicê
-
-tablicka=[]
-for i in range(max(lista.values())):
-    for j in lista:
-        if lista[j]==i:
-            tablicka.append([j,i])
-print(tablicka[-20:-1])       
+for i in tab_link[0:100]:
+    pobierz_tekst(i)
