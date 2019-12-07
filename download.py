@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import requests
+import requests, os
 
 
-#Tworzymy katalog linków do piosenek
+#Tworzymy katalog linkÃ³w do piosenek
 
 plik = open("C:\\Users\\Adam\\Source\\Repos\\Blaslagh\\Wizu\\katalog_linkow.txt","r")
 try:
@@ -13,28 +13,32 @@ finally:
 	plik.close()
 
 
-def pobierz_linki(katalog_atrystow=z_pliku.split()):
+def pobierz_linki( katalog_atrystow = z_pliku.split() ):
     try:
         tab_link=[]
         for artysta in katalog_atrystow:
-            for nr in range(1,20):
-                strona_artysty="https://www.tekstowo.pl/piosenki_artysty,"+str(artysta)+",alfabetycznie,strona,"+str(nr)+".html"
-                for i in requests.get(strona_artysty).text.split('"'):
-                    if ('piosenka,'+str(artysta)+',' in i): 
-                        if i[0]=='/':
-                            if "https://www.tekstowo.pl"+i in tab_link:
-                                continue
-                            tab_link.append("https://www.tekstowo.pl"+i)
-                        else:
-                            if "https://www.tekstowo.pl/"+i in tab_link:
-                                continue
-                            tab_link.append("https://www.tekstowo.pl/"+i)
-        return(tab_link)
+            try:
+                for nr in range( 1, 20 ):
+                    strona_artysty = "https://www.tekstowo.pl/piosenki_artysty," + str( artysta ) + ",alfabetycznie,strona," + str( nr ) + ".html"
+                    for i in requests.get( strona_artysty ).text.split( '"' ):
+                        if ('piosenka,' + str( artysta ) + ',' in i ): 
+                            if i[0] == '/':
+                                if "https://www.tekstowo.pl" + i in tab_link:
+                                    continue
+                                tab_link.append( [ artysta, "https://www.tekstowo.pl" + i] )
+                            else:
+                                if "https://www.tekstowo.pl/" + i in tab_link:
+                                    continue
+                                tab_link.append( [ artysta, "https://www.tekstowo.pl/" + i] )
+                print( "Linki do " + artysta + " zostaÅ‚y pobrane" )
+            except:
+                print( "BÅ‚Ä…d pobierania linkÃ³w ", artysta )
+        return( tab_link )
     except:
-        print("B³¹d pobierania linków")
+        print( "Tragiczny bÅ‚Ä…d pobierania linkÃ³w")
     return
 
-def pobierz_tekst(link):
+def pobierz_tekst(artysta, link):
     try:
         temp=requests.get(link)
         temp.encoding="utf-8"
@@ -51,12 +55,43 @@ def pobierz_tekst(link):
                 break
             if ('class="song-text"' in i): 
                 wlasciwy_kontener=i
-        return (rok, wlasciwy_kontener.replace("<br />","").replace(")","").replace("(","").replace("?","").replace(",","").replace(".","").replace("!","").lower().split()[4:-15])
+        print('.',end='')
+        return artysta, rok, wlasciwy_kontener.replace("<br />","").replace(")","").replace("(","").replace("?","").replace(",","").replace(".","").replace("!","").lower().split()[4:-15]
     except:
-        print("B³¹d pobierania tekstu "+link)
+        print("\nBÅ‚Ä…d pobierania tekstu " + link)
     return
 
-tab_link=pobierz_linki()
+def zlicz_slowa(tekst,lista_slow):
+    for slowo in tekst:
+        if len(slowo)<3:
+            continue
+        if slowo in lista_slow:
+            lista_slow[slowo] += 1
+        else:
+            lista_slow[slowo] = 1
+    return lista_slow
 
-for i in tab_link[0:100]:
-    pobierz_tekst(i)
+
+
+lista_tekstow = [ pobierz_tekst( i[0], i[1] ) for i in pobierz_linki()[0:100] ]
+
+
+zbior_slow = {}
+i=0
+for tekst in lista_tekstow:
+    try:
+        newpath = "C:\\Users\\Adam\\Source\\Repos\\Blaslagh\\Wizu\\Dane\\"+str(tekst[0])+"\\"+str(tekst[1])
+        if not os.path.exists(newpath):
+            os.makedirs(newpath)
+        plik = open("C:\\Users\\Adam\\Source\\Repos\\Blaslagh\\Wizu\\Dane\\"+str(tekst[0])+"\\"+str(tekst[1])+"\\"+str(i)+".txt","w")
+        try:
+            plik.write([ slowo + ' ' for slowo in tekst[2]])
+        except:
+            print("Problem z zapisaniem")
+        finally:
+            plik.close()
+
+        i+=1
+        zbior_slow = zlicz_slowa( tekst[2], zbior_slow )
+    except:
+        print(tekst)
