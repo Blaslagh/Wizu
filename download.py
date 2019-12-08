@@ -6,12 +6,11 @@ import requests, os
 
 #Tworzymy katalog linków do piosenek
 
-plik = open("C:\\Users\\Adam\\Source\\Repos\\Blaslagh\\Wizu\\katalog_linkow.txt","r")
+plik = open("katalog_linkow.txt","r")
 try:
 	z_pliku = plik.read()
 finally:
 	plik.close()
-
 
 def pobierz_linki( katalog_atrystow = z_pliku.split() ):
     try:
@@ -53,17 +52,17 @@ def pobierz_tekst(artysta, link):
                             print("Brak roku")
                         break
                 break
-            if ('class="song-text"' in i): 
-                wlasciwy_kontener=i
-        print('.',end='')
+            if ( 'class="song-text"' in i ): 
+                wlasciwy_kontener = i
+        print( '.', end = '' )
         return artysta, rok, wlasciwy_kontener.replace("<br />","").replace(")","").replace("(","").replace("?","").replace(",","").replace(".","").replace("!","").lower().split()[4:-15]
     except:
-        print("\nBłąd pobierania tekstu " + link)
+        print( "#", end = '' )
     return
 
 def zlicz_slowa(tekst,lista_slow):
     for slowo in tekst:
-        if len(slowo)<3:
+        if len( slowo ) < 3:
             continue
         if slowo in lista_slow:
             lista_slow[slowo] += 1
@@ -71,27 +70,20 @@ def zlicz_slowa(tekst,lista_slow):
             lista_slow[slowo] = 1
     return lista_slow
 
-
-
-lista_tekstow = [ pobierz_tekst( i[0], i[1] ) for i in pobierz_linki()[0:100] ]
-
-
-zbior_slow = {}
-i=0
-for tekst in lista_tekstow:
-    try:
-        newpath = "C:\\Users\\Adam\\Source\\Repos\\Blaslagh\\Wizu\\Dane\\"+str(tekst[0])+"\\"+str(tekst[1])
-        if not os.path.exists(newpath):
-            os.makedirs(newpath)
-        plik = open("C:\\Users\\Adam\\Source\\Repos\\Blaslagh\\Wizu\\Dane\\"+str(tekst[0])+"\\"+str(tekst[1])+"\\"+str(i)+".txt","w")
+def pobierz_od_zera(a=0,b=-1):
+    for tekst in [ pobierz_tekst( link[0], link[1] ) for link in pobierz_linki()[a:b] ]:
         try:
-            plik.write([ slowo + ' ' for slowo in tekst[2]])
+            if not os.path.exists("Dane\\"+str(tekst[0])+"\\"+str(tekst[1])):
+                os.makedirs("Dane\\"+str(tekst[0])+"\\"+str(tekst[1]))
+            plik = open("Dane\\"+str(tekst[0])+"\\"+str(tekst[1])+"\\"+tekst[2][0]+".txt","w")
+            try:
+                plik.writelines([ slowo + ' ' for slowo in tekst[2]])
+                print( "s", end = '' ) 
+            except:
+                print( "F", end = '' )
+            finally:
+                plik.close()
         except:
-            print("Problem z zapisaniem")
-        finally:
-            plik.close()
+            print(tekst)
+    return
 
-        i+=1
-        zbior_slow = zlicz_slowa( tekst[2], zbior_slow )
-    except:
-        print(tekst)
