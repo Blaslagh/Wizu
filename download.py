@@ -50,8 +50,7 @@ def pobierz_linki():
         	z_pliku = plik.writelines( [ i[0] + ' ' + i[1] + '\n' for i in tab_link ] )
         finally:
         	plik.close()
-    finally:
-        return( tab_link )
+    return( tab_link )
 
 def pobierz_tekst(artysta, link):
     try:
