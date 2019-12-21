@@ -1,0 +1,17 @@
+photo 6
+colour 1
+life 1
+black 1
+but 1
+prefer 1
+makes 1
+smile 1
+ref 2
+foto 6
+kolor 1
+¿ycie 1
+czerñ 1
+wolê 1
+wtedy 1
+œmiejê 1
+siê 1

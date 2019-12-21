@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import requests, os
@@ -72,20 +71,10 @@ def pobierz_tekst(artysta, link):
             if ( 'class="song-text"' in i ): 
                 wlasciwy_kontener = i
         print( '.', end = '' )
-        return artysta, rok, wlasciwy_kontener.replace("<br />","").replace(':',"").replace(';',"").replace('"',"").replace("-","").replace(")","").replace("*","").replace("(","").replace("?","").replace(",","").replace(".","").replace("!","").lower().split()[4:-15]
+        return artysta, rok, wlasciwy_kontener.replace("<br />","").replace(':',"").replace('`',"").replace('\'',"").replace(';',"").replace('"',"").replace("-","").replace(")","").replace("*","").replace("(","").replace("?","").replace(",","").replace(".","").replace("!","").replace('[',"").replace(']',"").lower().split()[4:-15]
     except:
         print( "\n#", end = '' )
     return
-
-def zlicz_slowa(tekst,lista_slow={}):
-    for slowo in tekst:
-        if len( slowo ) < 3:
-            continue
-        if slowo in lista_slow:
-            lista_slow[slowo] += 1
-        else:
-            lista_slow[slowo] = 1
-    return lista_slow
 
 def pobierz_od_zera(a=0,b=-1):
     if not input(os.getcwd()+"\\Dane\n\nJesteś pewien że podany katalog jest właściwy? T/N\n").lower().startswith("t"):
