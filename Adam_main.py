@@ -6,8 +6,9 @@
 
 import os
 
-import download as d
+import download, przetwarzanko as d, p
 
 os.chdir("C:\\Users\\Adam\\Source\\Repos\\Blaslagh\\Wizu")
 
-d.pobierz_od_zera()
+d.pobierz_od_zera
+p.sumuj_lata("Dane")

@@ -44,7 +44,6 @@ def sumuj_lata(sciezka):
     zapis = open(sciezka+'.txt','w')
     try:
         zapis.writelines([ str(slowo) + ' ' + str(lista_slow[slowo]) + '\n' for slowo in lista_slow.keys()])
-        print( ".", end = '' ) 
     except:
         print( "\ndupa\n\n", end = '' )
                 
@@ -53,5 +52,3 @@ def sumuj_lata(sciezka):
 
 
     return
-
-sumuj_lata("C:\\Users\\Adam\\Source\\Repos\\Blaslagh\\Wizu\\Dane")

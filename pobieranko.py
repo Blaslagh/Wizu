@@ -15,8 +15,7 @@ def pobierz_linki():
             print("Błąd wczytania")
         finally:       
             plik.close()
-        
-        
+
     except:
         plik = open("katalog_linkow.txt","r")
         try:
@@ -76,8 +75,8 @@ def pobierz_tekst(artysta, link):
         print( "\n#", end = '' )
     return
 
-def pobierz_od_zera(a=0,b=-1):
-    if not input(os.getcwd()+"\\Dane\n\nJesteś pewien że podany katalog jest właściwy? T/N\n").lower().startswith("t"):
+def pobierz_od_zera(a=0,b=-1,podfolder="Dane"):
+    if not input(os.getcwd()+"\\"+podfolder+"\n\nJesteś pewien że podany katalog jest właściwy? T/N\n").lower().startswith("t"):
         return
     for link in pobierz_linki()[a:b]:
         tekst = pobierz_tekst( link[0], link[1] )
@@ -85,9 +84,9 @@ def pobierz_od_zera(a=0,b=-1):
             print("Brak tekstu!")
             continue
         try:
-            if not os.path.exists("Dane\\"+str(tekst[0])+"\\"+str(tekst[1])):
-                os.makedirs("Dane\\"+str(tekst[0])+"\\"+str(tekst[1]))
-            plik = open("Dane\\"+str(tekst[0])+"\\"+str(tekst[1])+"\\"+tekst[2][0]+".txt","w")
+            if not os.path.exists(podfolder+"\\"+str(tekst[0])+"\\"+str(tekst[1])):
+                os.makedirs(podfolder+"\\"+str(tekst[0])+"\\"+str(tekst[1]))
+            plik = open(podfolder+"\\"+str(tekst[0])+"\\"+str(tekst[1])+"\\"+tekst[2][0]+".txt","w")
             try:
                 plik.writelines([ slowo + ' ' for slowo in tekst[2]])
                 print( "s", end = '' ) 
@@ -101,8 +100,8 @@ def pobierz_od_zera(a=0,b=-1):
     print("\n\nWszystko pobrane mordeczko!\n\n\a\a\a")
     return
 
-def pobierz_od_zera_v2(a=0,b=-1):
-    if not input(os.getcwd()+"\\Dane\n\nJesteś pewien że podany katalog jest właściwy? T/N\n").lower().startswith("t"):
+def pobierz_od_zera_v2(a=0,b=-1,podfolder="Dane"):
+    if not input(os.getcwd()+"\\"+podfolder+"\n\nJesteś pewien że podany katalog jest właściwy? T/N\n").lower().startswith("t"):
         return
     i = 1
     for link in pobierz_linki()[a:b]:
@@ -111,9 +110,9 @@ def pobierz_od_zera_v2(a=0,b=-1):
             print("Brak tekstu!")
             continue
         try:
-            if not os.path.exists("Dane\\"+str(tekst[0])+"\\"+str(tekst[1])):
-                os.makedirs("Dane\\"+str(tekst[0])+"\\"+str(tekst[1]))
-            plik = open("Dane\\"+str(tekst[0])+"\\"+str(tekst[1])+"\\"+i+".txt","w")
+            if not os.path.exists(podfolder+"\\"+str(tekst[0])+"\\"+str(tekst[1])):
+                os.makedirs(podfolder+"\\"+str(tekst[0])+"\\"+str(tekst[1]))
+            plik = open(podfolder+"\\"+str(tekst[0])+"\\"+str(tekst[1])+"\\"+i+".txt","w")
             try:
                 plik.writelines([ slowo + ' ' for slowo in tekst[2]])
                 print( "s", end = '' ) 
