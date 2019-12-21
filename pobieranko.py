@@ -62,7 +62,9 @@ def pobierz_tekst(artysta, link):
                 for j in i.split("</tr>"):
                     if ('Rok powstania:' in j):
                         try:
-                            rok=''.join(k for k in j if k.isdigit())[0:4]
+                            rok=''.join(k for k in j if k.isdigit())[-4:]
+                            if len(rok)<4:
+                                rok="NW"
                         except:
                             print("Brak roku")
                         break
@@ -111,19 +113,28 @@ def pobierz_od_zera(a=0,b=-1):
     return
 
 def pobierz_od_zera_v2(a=0,b=-1):
-    i=0
-    for link in pobierz_linki()[a:b]: 
-        i += 1
-        tekst = pobierz_tekst(link[0],link[1])
-        if not os.path.exists("Dane\\"+str(tekst[0])+"\\"+str(tekst[1])):
-            os.makedirs("Dane\\"+str(tekst[0])+"\\"+str(tekst[1]))
-        plik = open("Dane\\"+str(tekst[0])+"\\"+str(tekst[1])+"\\"+str(i)+".txt","w")
+    if not input(os.getcwd()+"\\Dane\n\nJesteś pewien że podany katalog jest właściwy? T/N\n").lower().startswith("t"):
+        return
+    i = 1
+    for link in pobierz_linki()[a:b]:
+        tekst = pobierz_tekst( link[0], link[1] )
+        if (tekst == None or tekst == "None" or tekst[2] == None or tekst[2] == "None"):
+            print("Brak tekstu!")
+            continue
         try:
-            plik.writelines([ slowo + ' ' for slowo in tekst[2]])
-            print( "s", end = '' ) 
+            if not os.path.exists("Dane\\"+str(tekst[0])+"\\"+str(tekst[1])):
+                os.makedirs("Dane\\"+str(tekst[0])+"\\"+str(tekst[1]))
+            plik = open("Dane\\"+str(tekst[0])+"\\"+str(tekst[1])+"\\"+i+".txt","w")
+            try:
+                plik.writelines([ slowo + ' ' for slowo in tekst[2]])
+                print( "s", end = '' ) 
+            except:
+                print( "\n\nF\n",tekst,"\n\n", end = '' )
+                
+            finally:
+                plik.close()
         except:
-            print( "\n\nF\n",print(tekst),"\n\n", end = '' )
-            
-        finally:
-            plik.close()
+            print(tekst)
+        i += 1
+    print("\n\nWszystko pobrane mordeczko!\n\n\a\a\a")
     return
