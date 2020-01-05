@@ -70,7 +70,7 @@ def pobierz_tekst(artysta, link):
             if ( 'class="song-text"' in i ): 
                 wlasciwy_kontener = i
         print( '.', end = '' )
-        return artysta, rok, wlasciwy_kontener.replace("<br />","").replace(':',"").replace('`',"").replace('\'',"").replace(';',"").replace('"',"").replace("-","").replace(")","").replace("*","").replace("(","").replace("?","").replace(",","").replace(".","").replace("!","").replace('[',"").replace(']',"").lower().split()[4:-15]
+        return artysta, rok, wlasciwy_kontener.replace("<br />","").replace('’',"").replace('‘',"").replace(':',"").replace('`',"").replace('\'',"").replace(';',"").replace('"',"").replace("-","").replace(")","").replace("*","").replace("(","").replace("?","").replace(",","").replace(".","").replace("!","").replace('[',"").replace(']',"").lower().split()[4:-15]
     except:
         print( "\n#", end = '' )
     return
