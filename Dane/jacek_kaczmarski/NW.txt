@@ -2373,15 +2373,15 @@ kamboja 4
 znajet 2
 kak 2
 jemu 3
-¿yt' 3
+¿yt 3
 ujez¿aj 2
 balszoj 2
 gorad 2
 liegczie 1
 budu 1
-sprasziwat' 2
+sprasziwat 2
 ludi 2
-³oszad' 2
+³oszad 2
 twaja 2
 nit 1
 szczastia 2
@@ -4146,7 +4146,7 @@ pralnia 1
 reszty 1
 korzystam 1
 praca 3
-czysta] 1
+czysta 1
 niew¹ski 1
 dziesi¹tej 1
 niewa¿nych 1

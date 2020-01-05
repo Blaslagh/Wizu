@@ -265,7 +265,7 @@ w³a¿ê 1
 dostarcza 1
 wra¿eñ 1
 dzieciak 1
-[refren] 3
+refren 3
 nwj 7
 chcia³ 6
 szampany 6
@@ -302,7 +302,7 @@ musisz 2
 lewej 2
 strony 2
 zakapturzony 1
-lil' 1
+lil 4
 kam 1
 jakuzi 1
 monitor 1
@@ -520,7 +520,6 @@ cieciu 1
 dorównasz 1
 p³on¹cym 1
 orygina³om 1
-lil 3
 peepem 1
 wow 1
 tamten 2

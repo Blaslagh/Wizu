@@ -151,7 +151,7 @@ swe 6
 dzieñ 3
 non 1
 stop 1
-rhythm’n’blues 1
+rhythmnblues 1
 szklanka 1
 swingu 1
 mocny 1

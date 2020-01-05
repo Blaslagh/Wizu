@@ -7,7 +7,7 @@ dziwny 1
 naród 4
 nikt 1
 nami 1
-nie 8
+nie 7
 przepada 1
 chyba 1
 idziesz 1
@@ -42,7 +42,7 @@ gdzie 1
 dwie 2
 g³owy 1
 opinie 1
-jedne 2
+jeden 1
 polak 2
 kultura 1
 kiedy 2
@@ -68,6 +68,7 @@ zbytnio 1
 obcych 1
 egipcie 1
 wakacjach 1
+grzej¹ 1
 koœci 1
 styrani 1
 robocie 1
@@ -108,7 +109,7 @@ haka 1
 wszystkich 1
 nacji 1
 œwiecie 1
-nawiedz¹ 1
+nienawiedz¹ 1
 polaka 1
 ten 1
 z³odziej 1
@@ -136,6 +137,7 @@ przeciwka 1
 skoñczyli 1
 jutro 1
 piachu 1
+jedne 1
 wspólnoty 1
 poœrodku 1
 woda 1
@@ -198,7 +200,6 @@ weekend 3
 grilluje 2
 bêdzie 4
 dym 3
-/4x 2
 zapach 1
 pieczonego 1
 miêsa 1
@@ -246,4 +247,3 @@ tob¹ 1
 przepadam 1
 cie 1
 sznujê 1
-/8x 1

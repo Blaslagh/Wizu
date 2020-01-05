@@ -501,7 +501,6 @@ dziêkczynn¹ 1
 inaczej 1
 umiem 1
 mogê 2
-[3x] 1
 zapraszam 3
 zielony 3
 las 4
@@ -826,7 +825,6 @@ lub 2
 czwartek 5
 pi¹tek 1
 wstaæ 2
-[2x] 3
 pecha 2
 miej 2
 pogodn¹ 2
@@ -1291,8 +1289,8 @@ przyjdzie 4
 b³êkitnych 1
 wbijam 1
 lot 2
-[przerwa 1
-instrumentalna] 1
+przerwa 1
+instrumentalna 1
 powoli 4
 uprzejmie 2
 cichutko 2
@@ -2094,7 +2092,7 @@ here 3
 prove 1
 the 15
 road 1
-we're 1
+were 1
 taking 1
 one 2
 give 14
@@ -2127,7 +2125,7 @@ benignity 1
 well 1
 know 1
 sure 1
-there's 2
+theres 2
 somewhere 1
 else 1
 find 1
@@ -2141,10 +2139,10 @@ smoke 1
 share 1
 two 1
 way 1
-you're 1
+youre 1
 cold 1
 new 1
-year's 1
+years 1
 eve 1
 till 1
 dawn 1
@@ -2171,7 +2169,7 @@ day 3
 has 1
 gone 4
 soon 1
-one's 1
+ones 1
 good 1
 goodnight 8
 dancing 1
@@ -2189,13 +2187,13 @@ door 3
 windows 3
 closed 3
 passed 3
-they're 3
+theyre 3
 die 1
-[scatting] 3
+scatting 3
 meet 1
 with 2
 queen 1
-tequila's 1
+tequilas 1
 mixed 1
 gin 1
 after 1
@@ -2203,7 +2201,7 @@ three 1
 spleen 1
 sun 1
 history 1
-i'll 2
+ill 2
 fly 2
 away 1
 zamkniêtych 1

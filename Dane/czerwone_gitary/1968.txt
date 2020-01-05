@@ -84,7 +84,7 @@ zapomnisz 1
 powrócisz 1
 lecz 7
 póŸno 1
-/bis 9
+bis 9
 tego 5
 chcesz 5
 innym 2

@@ -12,7 +12,6 @@ blask 1
 ciemnieje 1
 granice 1
 nieskoñczony 1
-[2x] 3
 wzgardzony 1
 okryty 1
 chwa³¹ 1

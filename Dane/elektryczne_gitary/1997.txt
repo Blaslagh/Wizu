@@ -67,7 +67,6 @@ lokale 1
 chc¹ 2
 bym 1
 narodzi³ 1
-/co 1
 idzie 1
 noc 2
 rynku 1
@@ -421,7 +420,7 @@ pace 1
 swe 1
 ostatnie 1
 resztki 1
-image’u 1
+imageu 1
 tracê 1
 broniæ 1
 lecieæ 1

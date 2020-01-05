@@ -217,7 +217,6 @@ wie 2
 razem 2
 tej 4
 spotkamy 1
-/x2 4
 potrzeba 5
 zakrêtów 2
 dróg 2

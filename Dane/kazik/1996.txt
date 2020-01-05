@@ -246,7 +246,7 @@ czwarty 1
 pilnuj¹ 1
 tamtych 1
 graj¹ 1
-karty' 1
+karty 1
 byæ 2
 wy¿ej 1
 du¿y 1

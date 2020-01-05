@@ -24,7 +24,7 @@ def zlicz_slowa(tekst,lista_slow):
 					lista_slow[slowo] = ilosc
 	return lista_slow
 
-def sumuj_lata(sciezka):
+def sumuj_lata(sciezka='Dane'):
 	if not os.path.exists(sciezka):
 		print("Ni ma")
 		return

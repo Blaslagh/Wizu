@@ -70,7 +70,6 @@ zw¹tpi³ 2
 szed³ 1
 przed 4
 siebie 5
-[2x] 1
 hej 1
 tam 4
 kto 10
@@ -168,7 +167,6 @@ pog³adzili 1
 wrócê 3
 was 1
 ludzie 4
-[7x] 1
 poranny 1
 promieñ 1
 s³oñca 5
@@ -493,7 +491,6 @@ czas 7
 ca³uj 1
 ostatni 1
 ¿egnaj 1
-[4x] 1
 dobrzy 2
 b³ogos³awcie 3
 zdarzenia 1

@@ -119,7 +119,7 @@ lepszy 1
 stanie 1
 podwójn¹ 1
 gard¹ 1
-poœwiœcie 1
+poœwiacie 1
 jataganów 1
 prochów 1
 sw¹d 1

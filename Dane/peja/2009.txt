@@ -44,7 +44,7 @@ formie 2
 przebojowy 1
 track 4
 postawy 1
-nie 213
+nie 215
 pokorne 1
 czego 3
 dotknê 1
@@ -256,7 +256,6 @@ owca 1
 zb³¹kana 1
 owieczka 1
 polska 1
-'09 2
 króla 1
 œwieczka 1
 protestowaæ 1
@@ -597,7 +596,7 @@ po¿egna³em 1
 swa 2
 czasy 4
 gry 2
-freestyle`owa³em 1
+freestyleowa³em 1
 razem 4
 mezo 1
 liberem 1
@@ -623,7 +622,7 @@ dwóch 2
 parêset 1
 s³ów 2
 garstki 1
-street' 1
+street 1
 cie 3
 wilkiem 1
 patrzy 1
@@ -674,7 +673,7 @@ ukraœæ 1
 bit 4
 madonna 1
 bomb 1
-squad'owi 1
+squadowi 1
 spakuje 1
 baga¿nik 1
 pomonta 1
@@ -934,7 +933,7 @@ wreszcie 3
 ka¿dego 3
 wschodu 3
 mówisz 4
-don't 3
+dont 3
 worry 3
 happy 3
 przodu 3
@@ -1075,7 +1074,7 @@ level 1
 wspi¹æ 1
 znaczy 4
 czwórce 1
-decks'a 1
+decksa 1
 odrobiê 1
 pierwszy 2
 milion 1
@@ -1372,7 +1371,6 @@ podwórko 1
 wyszli 1
 dzwonek 1
 drzwi 1
-'nie 2
 ryszard 1
 wyjdzie 1
 ³zy 1
@@ -1612,7 +1610,7 @@ prost¹ 1
 ilu 1
 takich 2
 dzieciaków 1
-dobieg³em' 1
+dobieg³em 1
 papieru 1
 samolot 1
 wyrzucam 1
@@ -1921,7 +1919,6 @@ dupy 1
 kace 1
 traumy 1
 dzielny 1
-'06 1
 po¿ycie 1
 wielkie 1
 podziêkowaæ 1
@@ -2195,7 +2192,6 @@ hopowym 1
 dzieciaki 2
 wyrastaj¹ 1
 œmia³o 2
-'89 1
 przyszed³ 1
 przes³ucha³em 1
 tygodniu 1
@@ -2287,7 +2283,7 @@ zasrañce 1
 przejmujê 1
 kraju 1
 wychowuj¹ 1
-weak'ach 1
+weakach 1
 drê 1
 ³acha 1
 kto 2

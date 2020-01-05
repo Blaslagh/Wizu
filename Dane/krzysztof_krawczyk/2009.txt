@@ -57,7 +57,7 @@ tam 9
 wspomnieñ 1
 prowadzi 1
 utraci³em 1
-[2x] 12
+[2x] 3
 ludzie 2
 pytasz 1
 pytam 1
@@ -425,7 +425,6 @@ razem 4
 tob¹ 7
 jawie 1
 œniæ 1
-[4x] 1
 p³aka³aœ 1
 pozosta³y 1
 œlady 1

@@ -126,7 +126,6 @@ muzê 4
 ulepsza 3
 serca 3
 kreska 3
-/x2 4
 jak 69
 eric 2
 paris 1
@@ -570,7 +569,7 @@ sama 1
 brygada 1
 kryzys 1
 ofiary 2
-prl'u 1
+prlu 1
 ¿yæ 11
 kapitaliŸmie 1
 daje 1
@@ -1479,7 +1478,7 @@ lutego 1
 1999 1
 zgin¹³ 1
 big 1
-l'em 1
+lem 1
 opisz¹ 1
 sztuki 1
 bro 1
@@ -1704,7 +1703,6 @@ rhyme 1
 pattern 1
 should 1
 lep 1
-'pa' 1
 glad 1
 fall 1
 lubie¿ne 1
@@ -2045,7 +2043,7 @@ samo 2
 typ 1
 porno 1
 zostawi³em 1
-backstage'u 1
+backstageu 1
 trzaskam 1
 drzwiami 1
 myœl 2

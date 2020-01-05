@@ -1,7 +1,7 @@
 ich 6
 will 1
 euch 1
-heut‘ 4
+heut 4
 von 1
 meiner 1
 ersten 1
@@ -57,7 +57,7 @@ auf 1
 tod 1
 betrübt 1
 das 1
-kenn‘ 1
+kenn 1
 gut 1
 weil 1
 bei 1
@@ -65,7 +65,7 @@ mir 1
 genau 1
 war 1
 bis 1
-hab‘ 2
+hab 2
 grosse 1
 gefunden 1
 vielleicht 1
@@ -73,4 +73,4 @@ sie 1
 auch 1
 für 1
 zeit 1
-verlor’n 1
+verlorn 1

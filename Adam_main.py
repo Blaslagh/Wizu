@@ -10,5 +10,6 @@ os.chdir("C:\\Users\\Adam\\Source\\Repos\\Blaslagh\\Wizu")
 import pobieranko, przetwarzanko
 
 
-
-analizka_lat("Dane")
+pobieranko.pobierz_od_zera()
+przetwarzanko.sumuj_lata("Dane")
+przetwarzanko.analizka_lat("Dane")

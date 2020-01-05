@@ -54,7 +54,7 @@ tylko 6
 w³asnym 1
 psem 1
 szkodzi 1
-refren/2 1
+refren2 1
 zosta³o 2
 jeszcze 4
 trochê 3

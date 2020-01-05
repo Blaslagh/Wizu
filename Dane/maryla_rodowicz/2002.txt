@@ -166,7 +166,7 @@ wódkê 1
 chla 1
 gilbert 1
 becaud 1
-c'est 1
+cest 1
 vie 1
 zaprasza³ 1
 nathalie 1
@@ -535,7 +535,6 @@ wreszcie 1
 domu 1
 garœciami 1
 bierz 1
-/3x 1
 ch³opak 1
 mafiozo 1
 bakier 1

@@ -1,14 +1,13 @@
 powtarza³aœ 1
 irlandii 1
 nie 158
-jest 89
+jest 90
 Ÿle 7
-'przecie¿ 1
+przecie¿ 7
 po³owa 1
 twego 1
 miasta 1
 te¿ 14
-jest' 1
 mijaj¹ 2
 lata 4
 choæ 9
@@ -23,7 +22,6 @@ md³oœæ 1
 ref 30
 lecê 24
 dó³ 24
-przecie¿ 6
 gorzej 6
 byæ 24
 mo¿e 8
@@ -568,7 +566,7 @@ top 1
 bikini 1
 natchnieniem 1
 dla 4
-dj'ów 1
+djów 1
 przejmuj 3
 ³ysin¹ 1
 nogi 4
@@ -1132,7 +1130,7 @@ moim 1
 psem 1
 katem 1
 oprawc¹ 1
-[bridge] 1
+bridge 1
 lubie¿na 1
 w³aœcicielko 1
 z³a 1

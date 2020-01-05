@@ -217,7 +217,7 @@ gola 1
 teraz 4
 moda 1
 prostego 1
-rock'n'rolla 1
+rocknrolla 1
 big 1
 macki 1
 johny 1
@@ -305,7 +305,7 @@ g³owa 2
 liczy 1
 kultura 1
 hiphopowa 1
-rock'n'rollowa 1
+rocknrollowa 1
 jaka 1
 pusta 1
 moja 3
@@ -742,7 +742,6 @@ spo³eczeñstwo 3
 nudzi 3
 los 3
 zabitych 3
-/x2 3
 skurwysyñski 1
 pe³en 1
 spróbuj 1

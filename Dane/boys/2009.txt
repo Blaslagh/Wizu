@@ -30,7 +30,7 @@ jesteœ 17
 obok 1
 ju¿ 26
 nienawidzê 1
-ciê 16
+ciê 17
 nie 65
 bêdê 4
 chcia³ 3
@@ -123,7 +123,7 @@ mi³oœædziêcieca 3
 mi³oœæzabra³a 3
 radoœæ 3
 mi³oœæwci¹¿ 3
-kocham 6
+kocham 7
 ciêlecz 3
 nim 6
 2codzieñ 1
@@ -679,7 +679,6 @@ pokocha³ 1
 jednak 1
 dalej 1
 odszukam 1
-/x2 1
 ¿eby 1
 bajka 1
 happy 1
@@ -712,8 +711,6 @@ promienieje 1
 dziœ 1
 ¿ycia 1
 sens 1
-'kocham 1
-ciê' 1
 zachód 8
 niebo 7
 jasne 4

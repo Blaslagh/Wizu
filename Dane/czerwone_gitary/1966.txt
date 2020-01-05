@@ -222,7 +222,7 @@ pusty 1
 las 1
 ¿ó³to 1
 maluje 1
-/bis 6
+bis 6
 taki 9
 ciep³y 1
 grudniowy 1

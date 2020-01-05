@@ -30,8 +30,8 @@ jest 2
 kroku 2
 mety 2
 daleko 2
-[ras 2
-luta] 2
+ras 2
+luta 2
 idziesz 1
 naprzód 1
 nie 3

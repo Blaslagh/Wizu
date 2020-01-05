@@ -96,7 +96,6 @@ nasze 3
 rêce 3
 rozwi¹¿¹ 1
 zagadki 1
-[2x] 9
 œwiat 12
 nam 8
 mno¿y³ 2
@@ -107,7 +106,6 @@ bêdziemy 2
 tego 2
 przegapimy 2
 mi³oœci 2
-[3x] 3
 dzieñ 17
 wynurzy³ 4
 g³êbi 5

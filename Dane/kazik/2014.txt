@@ -112,7 +112,6 @@ lasy 4
 bujaj¹ce 2
 wiruj¹ce 2
 basy 2
-[x2] 2
 odpalam 1
 ten 2
 track 1

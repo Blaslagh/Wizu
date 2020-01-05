@@ -234,7 +234,6 @@ chór 1
 mig 1
 rozgoniê 1
 dwór 1
-[3x] 1
 volare 6
 cantare 6
 najwy¿szy 9

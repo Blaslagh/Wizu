@@ -330,7 +330,6 @@ nastêpny 1
 proszê 1
 wyszków 5
 tonie 5
-/4x 5
 siedzê 1
 dachu 1
 tutaj 1

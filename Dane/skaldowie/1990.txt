@@ -54,7 +54,6 @@ amulety 1
 nocy 1
 modli 1
 skrycie 1
-[3x] 2
 nie 11
 budujmy 1
 o³tarzyków 1

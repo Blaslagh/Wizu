@@ -4,7 +4,7 @@ men 1
 have 4
 named 1
 you 8
-you're 2
+youre 2
 like 1
 the 2
 lady 1
@@ -12,7 +12,7 @@ with 1
 mystic 1
 smile 4
 only 1
-'cause 1
+cause 1
 lonely 3
 they 5
 blamed 1

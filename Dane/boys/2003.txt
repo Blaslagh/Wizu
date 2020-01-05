@@ -363,7 +363,7 @@ just 1
 another 1
 day 1
 mind 1
-goin' 3
+goin 3
 one 1
 way 1
 feeling 1
@@ -384,11 +384,11 @@ and 3
 the 2
 streets 1
 gold 1
-gettin' 1
+gettin 1
 lost 1
 but 1
 never 1
-losin' 1
+losin 1
 hope 1
 maybe 1
 once 1
@@ -403,12 +403,11 @@ were 4
 lover 2
 yesterday 2
 got 2
-dreamin' 2
+dreamin 2
 left 2
 baby 2
 for 2
 tonight 2
-i'm 2
 crazy 2
 please 2
 mine 2

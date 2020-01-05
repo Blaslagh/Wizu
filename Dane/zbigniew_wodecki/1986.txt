@@ -4,7 +4,7 @@ nie 7
 brakuje 3
 nam 6
 poza 2
-rollsroyce'em 1
+rollsroyceem 1
 nic 3
 kochanie 1
 kupi³bym 1
@@ -154,7 +154,6 @@ popad³ 1
 biedy 1
 grzech 1
 œmiech 1
-/x2 1
 czterokreœlne 1
 cis 1
 nowym 1

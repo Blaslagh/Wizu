@@ -133,9 +133,8 @@ gana 1
 zawodowo 1
 super 1
 zabawa 1
-[czy 1
+czy 1
 wierzysz 1
-x2] 1
 demokracja 1
 byæ 1
 anarchist¹ 1

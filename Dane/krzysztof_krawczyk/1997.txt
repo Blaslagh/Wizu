@@ -110,7 +110,6 @@ tym 1
 zostaw 1
 mój 1
 ból 1
-[2x] 3
 wiem 1
 cudownie 1
 ale 1

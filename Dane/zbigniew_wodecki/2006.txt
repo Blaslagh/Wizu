@@ -118,7 +118,7 @@ noc 1
 niech 1
 powraca 1
 ciszy 1
-tam/ 1
+tam 1
 wspania³y 1
 miarê 1
 g³odnych 1

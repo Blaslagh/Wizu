@@ -16,7 +16,7 @@ szkole 3
 króluj¹ 3
 rock 13
 and 7
-roll'e 3
+rolle 3
 nas 12
 ka¿dy 9
 wie 7
@@ -136,7 +136,6 @@ blask 3
 domu 1
 cisza 1
 oczekuje 1
-[2x] 1
 ogrodach 1
 wiatr 2
 noc¹ 3

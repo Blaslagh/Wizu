@@ -239,9 +239,7 @@ wiecznoœci 1
 doradzi 1
 ref 1
 swoj¹ 2
-tajemnicê 2
-[tajemnicê 1
-ma] 1
+tajemnicê 3
 nic 4
 takie 1
 zdaje 1

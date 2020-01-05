@@ -64,7 +64,6 @@ mog¹ 1
 jutro 1
 stan¹ 1
 obok 3
-[3x] 2
 piasku 4
 stoi 4
 nasza 2
@@ -144,7 +143,6 @@ przesz³oœci 1
 znak 2
 dzisiaj 1
 skoñczona 1
-[2x] 2
 nocy 3
 moja 3
 kruku 3

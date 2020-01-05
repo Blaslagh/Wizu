@@ -150,7 +150,7 @@ wod¹ 1
 zaszumi¹ 1
 szuwary 1
 us³yszysz 1
-tam 3
+tam 4
 echo 1
 wêdrownej 2
 brzêczy 1
@@ -303,7 +303,7 @@ londynie 1
 patrzê 1
 tutaj 6
 koñ 2
-/bis 2
+bis 2
 cienie 1
 wpe³zaj¹ 1
 po³udnie 1
@@ -326,7 +326,7 @@ ga³êziach 1
 westchnieniem 1
 zatrzyma³ 1
 wtedy 2
-[murmurando] 2
+murmurando 2
 iskrami 1
 rumianku 1
 dopala 1
@@ -501,12 +501,12 @@ morze 1
 s³ów 1
 prostu 1
 brak 2
-[s³uchaj 1
+s³uchaj 2
 resztê 1
 jakim 1
 kolorze 1
 w³aœnie 2
-powiedz] 1
+powiedz 1
 filmow¹ 1
 gwiazdê 2
 monikê 1
@@ -532,7 +532,7 @@ g³osik 1
 dŸwiêczny 1
 nó¿ka 1
 aaa 1
-³adna] 1
+³adna 1
 królow¹ 1
 jak¹œ 2
 madagaskaru 1
@@ -545,7 +545,6 @@ g³upi 1
 ¿art 1
 gniewaj 1
 dobrze 3
-no] 1
 kimœ 1
 dziwny 1
 traf 1
@@ -567,7 +566,6 @@ niemo¿liwe 1
 chwileczkê 2
 rzeczywiœcie 1
 oszukiwaæ 1
-s³uchaj 1
 benek 1
 imiê 1
 alina 1
@@ -601,14 +599,13 @@ aha 1
 sztuczne 1
 sto 1
 z³otych 1
-komplet] 1
+komplet 1
 pokrakê 1
 biletów 1
 osiem 1
 dziewczynami 1
 bywa 1
 eee 1
-tam] 1
 wiary 3
 pierwszym 2
 balem 1
@@ -673,7 +670,7 @@ najwierniejszym 1
 przyjacielem 1
 teraz 3
 nic 1
-zosta³o] 1
+zosta³o 1
 sercu 5
 g³êboko 1
 czujê 1

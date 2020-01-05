@@ -114,7 +114,6 @@ mi³oœci 1
 znajdziesz 3
 moich 1
 snach 1
-/x2 2
 prawdê 1
 znaæ 1
 wiedzieæ 1
@@ -138,7 +137,6 @@ sw¹ 1
 mi³oœæ 9
 przestajesz 1
 niej 1
-/x3 2
 letniego 4
 dnia 4
 szóstej 6
@@ -227,7 +225,6 @@ zawo³asz 2
 g³oœno 2
 bêde 3
 bieg³ 2
-/2x 1
 rann¹ 1
 kaw¹ 1
 budzisz 1

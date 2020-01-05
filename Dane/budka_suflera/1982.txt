@@ -210,7 +210,7 @@ oficjalnej 1
 stronie 1
 budki 1
 suflera 1
-http//wwwbudkasuflerapl/tekstjolkajolkapamietaszhtml 1
+httpwwwbudkasuflerapltekstjolkajolkapamietaszhtml 1
 postaram 1
 skontaktowaæ 1
 panem 1

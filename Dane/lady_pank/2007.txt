@@ -259,7 +259,6 @@ zapobiegliwy 2
 ruchliwy 2
 skrzat 2
 leprechaun 3
-/x4 2
 zostawiam 1
 or³a 1
 dziewczynê 1
@@ -273,11 +272,10 @@ radê 1
 pomimo 1
 swych 1
 wad 1
-/x8 1
 naprawdê 4
 niebo 1
 bajek 1
-disney'a 1
+disneya 1
 pewny 1
 ca³y 6
 œwiat 5

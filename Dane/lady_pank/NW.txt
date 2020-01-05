@@ -802,15 +802,13 @@ rock 1
 rolled 1
 her 2
 hustler 15
-i'm 13
 just 13
 did 8
 think 8
 would 5
 stay 3
-'till 3
+till 3
 tomorrow 3
-i'd 3
 repay 3
 what 3
 borrowed 3
@@ -823,7 +821,7 @@ destination 1
 set 1
 free 1
 imagination 1
-didn't 1
+didnt 1
 let 1
 see 1
 cold 1

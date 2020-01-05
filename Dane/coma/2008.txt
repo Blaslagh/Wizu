@@ -323,7 +323,6 @@ zbawienia 3
 os¹dzi 1
 bezduszna 1
 wieczna 1
-/x2 1
 lœnienie 2
 tamtym 1
 ciemnym 1
@@ -601,7 +600,7 @@ podasz 1
 d³oñ 1
 po³knie 3
 z³a 1
-noc[x4] 1
+nocx4 1
 przyjacielu 1
 zrozumiesz 1
 czym 2
@@ -629,7 +628,7 @@ piêkni 2
 ostatni 2
 chwalmy 2
 œwiadkowie 2
-królestwa 2
+królestwa 3
 wiecznych 2
 ch³opców 2
 przyjdzie 2
@@ -661,8 +660,7 @@ piêkna 1
 sprzed 1
 pomniki 1
 upadku 1
-'królestwa 1
-nadziei' 1
+nadziei 1
 dziœ 1
 jednym 1
 psy 2

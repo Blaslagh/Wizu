@@ -25,7 +25,6 @@ dzieje 1
 bohaterski 1
 wskrzesza 1
 czas 1
-[2x] 2
 rycerstwie 1
 spod 1
 kresowych 1

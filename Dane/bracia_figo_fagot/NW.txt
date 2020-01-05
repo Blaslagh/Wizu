@@ -74,7 +74,7 @@ papiery 1
 kaskadera 1
 ten 5
 ziomek 1
-youtube'a 1
+youtubea 1
 najlepsza 1
 guma 1
 by³a 1
@@ -571,7 +571,7 @@ kochanie 1
 zaczê³o 1
 zarabianie 1
 szosach 1
-rfn'u 1
+rfnu 1
 stacjach 1
 benzynowych 1
 tanich 1

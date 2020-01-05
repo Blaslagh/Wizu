@@ -674,7 +674,6 @@ obra¿acie 1
 koniec 1
 uk³adów 1
 zacier 1
-/x3 3
 rankiem 1
 wypad³o 1
 oko 2

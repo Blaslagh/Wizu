@@ -5,7 +5,7 @@ way 2
 giving 2
 and 4
 now 4
-you're 3
+youre 3
 leasing 6
 have 2
 deal 1

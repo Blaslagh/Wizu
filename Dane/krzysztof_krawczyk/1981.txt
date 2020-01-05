@@ -310,7 +310,6 @@ czujesz 1
 pasta 1
 wspania³y 1
 smak 1
-[2x] 3
 laa 2
 pracowa³eœ 1
 dalej 6

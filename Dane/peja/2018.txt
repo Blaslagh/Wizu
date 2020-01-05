@@ -288,7 +288,7 @@ wdychaæ 1
 chady 1
 pihem 1
 zamiast 2
-pokerface'a 1
+pokerfacea 1
 wje¿dza 1
 uœmiech 1
 typu 1
@@ -299,7 +299,7 @@ wje¿dzam 1
 rozbujanym 1
 krokiem 1
 polubie 1
-sprite'a 1
+spritea 1
 serwowanego 1
 syropem 1
 panienek 1
@@ -337,7 +337,7 @@ penerstwo 1
 chce 1
 przewaliæ 1
 papier 1
-hardcor'owe 1
+hardcorowe 1
 nawijaæ 1
 potrafiê 2
 dawna 1

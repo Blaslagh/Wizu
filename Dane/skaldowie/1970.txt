@@ -952,7 +952,7 @@ kroki 1
 zagubi¹ 1
 ca³e 1
 dana 16
-dana/x2 3
+danax2 3
 szatana 1
 realny 1
 poznawalny 1
@@ -1040,7 +1040,6 @@ zgaœnie 1
 jutro 1
 wstan¹ 1
 otworz¹ 1
-[4x] 1
 podniós³ 1
 g³owê 1
 zauwa¿y³ 1

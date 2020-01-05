@@ -154,7 +154,7 @@ teen 1
 know 2
 baby 2
 what 2
-fuckin' 2
+fuckin 2
 mean 2
 and 2
 father 2
@@ -163,7 +163,7 @@ another 3
 camper 2
 going 2
 under 2
-you's 2
+yous 2
 come 2
 fever 36
 adventure 1

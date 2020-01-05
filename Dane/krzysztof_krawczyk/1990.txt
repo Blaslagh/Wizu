@@ -223,7 +223,6 @@ wichury 1
 niech 2
 idzie 1
 piec 1
-[2x] 4
 dziœ 16
 pó³ 3
 sobie 5
@@ -636,9 +635,6 @@ wœród 1
 z³ocistych 1
 pla¿ 1
 rozbrzmiewa 1
-/2x/ 2
-/la 3
-la/ 3
 ptaków 1
 najpiêkniejsze 1
 barwy 1
@@ -664,7 +660,6 @@ znasz 1
 teraz 1
 wierzysz 1
 szczêœliwy 1
-/4x/ 1
 zjecha³ 1
 cyrk 16
 wszystkich 1

@@ -36,7 +36,7 @@ s³odko 1
 ref 4
 jest 7
 tylko 3
-rock'n'roll 2
+rocknroll 2
 najprostszy 2
 rytm 2
 coœ 4

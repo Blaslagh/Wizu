@@ -453,7 +453,6 @@ karze 1
 zasuwam 1
 razie 1
 zmroku 1
-'97 1
 pustka 1
 autorem 1
 klasyków 1

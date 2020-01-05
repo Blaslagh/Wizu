@@ -45,7 +45,6 @@ blaszki 1
 ¿ó³te 2
 trzy 4
 kropki 1
-i'm 1
 unpredictable 1
 but 1
 you 1
@@ -472,7 +471,7 @@ zawartych 1
 owej 1
 historii 1
 opowieœci 1
-https//plwikipediaorg/wiki/weltschmerz 1
+httpsplwikipediaorgwikiweltschmerz 1
 polak 1
 le¿a³em 1
 ³¹ce 1
@@ -662,7 +661,6 @@ piosenka 2
 trzewi 2
 przemijaniu 2
 jesieni 2
-/x4 6
 brod¹ 1
 drapa³ 2
 szeleœci³o 2

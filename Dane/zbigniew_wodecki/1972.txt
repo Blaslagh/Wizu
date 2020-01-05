@@ -12,7 +12,7 @@ krzyk 2
 odgaduje 1
 œwit 2
 cieniem 2
-siê 6
+siê 7
 kojarzy 2
 cieñ 3
 sen 4
@@ -112,8 +112,6 @@ obudzi 1
 nieœmia³o 5
 zaœpiewa 1
 znajdziesz 2
-[na 8
-na] 8
 mnie 2
 znowu 2
 zatrzymasz 1
@@ -121,10 +119,8 @@ przy 1
 sobie 1
 niebo 1
 b³êkitne 1
-zakocha 1
+zakocha 2
 tobie 1
-[zakocha 1
-siê] 1
 potem 1
 zabierzesz 1
 sob¹ 1

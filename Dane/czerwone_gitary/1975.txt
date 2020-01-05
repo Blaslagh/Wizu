@@ -9,11 +9,11 @@ bleibt 1
 nicht 4
 fragen 5
 habe 1
-stell' 1
+stell 1
 dir 4
 suchen 1
 antwort 3
-hol' 1
+hol 1
 mir 5
 worte 8
 sind 4
@@ -38,7 +38,7 @@ die 2
 hoffnung 2
 auf 2
 schweigen 2
-werd' 2
+werd 2
 bringt 1
 nichts 1
 ein 1

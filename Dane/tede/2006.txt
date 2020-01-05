@@ -278,7 +278,7 @@ szukam 1
 stylu 1
 tylu 1
 latach 1
-ziom 12
+ziom 13
 œwiecie 2
 rymów 1
 dekada 1
@@ -430,7 +430,7 @@ czo³em 1
 dole 1
 klubie 1
 siemanko 3
-[matheo] 1
+matheo 1
 po¿yczyæ 1
 banknot 1
 chyba 2
@@ -568,7 +568,6 @@ puenta 1
 kiedyœ 1
 jednak 1
 wtedy 1
-[ziom] 1
 chcia³ 1
 ¿eby 1
 œwiata 1
@@ -637,7 +636,7 @@ nowi 1
 goœcie 1
 chc¹ 1
 zarobiæ 1
-[ziomuœ] 1
+ziomuœ 1
 zachêceni 1
 hiphopu 1
 taka 1

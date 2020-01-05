@@ -59,7 +59,7 @@ wings 2
 high 2
 over 2
 said 4
-she's 1
+shes 1
 gonna 4
 come 1
 back 1
@@ -67,7 +67,6 @@ tomorrow 2
 fly 6
 through 2
 sky 2
-i'm 1
 your 2
 side 2
 sure 1
@@ -76,7 +75,7 @@ morning 1
 silver 1
 silhouetted 1
 against 1
-child's 1
+childs 1
 sunrise 1
 today 1
 day 1
@@ -85,7 +84,7 @@ you 1
 rise 2
 take 1
 hand 1
-you're 2
+youre 2
 man 1
 took 1
 yonder 1
@@ -353,7 +352,6 @@ suchych 1
 liœci 2
 nabrali 1
 w³osy 17
-[2x] 2
 serce 3
 jaskó³ki 2
 zmi³uj 4

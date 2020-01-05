@@ -303,7 +303,7 @@ miêdzy 1
 oczy 1
 wygl¹dasz 1
 shinead 1
-o'connor 1
+oconnor 1
 wygl¹d 1
 nadal 1
 uroczy 1

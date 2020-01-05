@@ -174,7 +174,7 @@ sehe 1
 plötzlich 1
 viel 2
 mehr 1
-fühl' 1
+fühl 1
 frei 1
 wie 1
 ein 3
@@ -186,7 +186,7 @@ selbst 2
 häusermeer 1
 blütenduft 1
 mache 1
-kein' 1
+kein 1
 geheimnis 1
 draus 1
 denn 1
@@ -195,10 +195,10 @@ glück 1
 kann 3
 bei 1
 sonnenlicht 1
-besteh'n 1
+bestehn 1
 die 5
 wolken 1
-seh'n 1
+sehn 1
 jetzt 1
 anders 3
 aus 1
@@ -314,7 +314,6 @@ koszar 1
 snu 2
 leœna 1
 skraca 1
-[2x] 1
 ¿yciu 4
 chwile 4
 smutne 2

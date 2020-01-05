@@ -11,7 +11,7 @@ niech 20
 ¿yje 6
 wolnoœæ 6
 swoboda 1
-zabawa 1
+zabawa 2
 dziewczyna 6
 m³oda 1
 jak 73
@@ -186,7 +186,6 @@ koniec 1
 siada 1
 sylwestra 1
 weso³a 1
-zabawa' 1
 tañcz¹ 1
 skacz¹ 1
 œpiewaj¹ 1
@@ -534,7 +533,6 @@ wina 5
 koszmaru 4
 fina³ 4
 zapomnieæ 4
-/x2 4
 odejdê 2
 zrobi³em 2
 najlepiej 2
@@ -561,7 +559,6 @@ zagoi 2
 rany 2
 lekiem 2
 koszmarne 2
-/x4 1
 czeka 2
 tankowanie 4
 czuje 5

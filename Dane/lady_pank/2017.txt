@@ -153,8 +153,8 @@ kradnie 1
 nam 5
 zostawia 1
 dnie 1
-[przerwa 1
-instrumentalna] 1
+przerwa 1
+instrumentalna 1
 œwiecie 1
 zmienia 1
 ma³e 1

@@ -286,7 +286,7 @@ upadek 1
 chocia¿ 1
 wznosz¹cej 1
 fali 1
-diggin' 1
+diggin 1
 crates 1
 oni 2
 gold 1
@@ -356,7 +356,7 @@ skurwysynu 1
 czyste 1
 penerstwo 1
 odrobin¹ 1
-skill'u 1
+skillu 1
 subtelny 1
 wiêc 1
 œwiruj 1

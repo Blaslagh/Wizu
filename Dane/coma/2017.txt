@@ -9,7 +9,7 @@ ale 2
 myli³em 1
 siê 30
 wiem 1
-nie 33
+nie 40
 chcesz 1
 oddawaj 3
 wszystkie 2
@@ -22,10 +22,7 @@ wyma¿ê 1
 instagramie 1
 potrafiê 16
 powiedzieæ 16
-‘nie’ 1
 ju¿ 6
-‘nie 3
-nie’ 3
 twój 1
 by³y 1
 ch³opak 1
@@ -47,7 +44,6 @@ moj¹ 1
 konstytucjê 1
 zablokowa³aœ 1
 trybuna³y 1
-/2x 1
 przystanku 1
 tramwajowym 1
 snajper 8

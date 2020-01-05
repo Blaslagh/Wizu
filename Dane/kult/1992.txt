@@ -4,7 +4,6 @@ walks 2
 alone 3
 and 7
 when 6
-i'm 2
 walking 2
 dark 23
 road 2
@@ -21,16 +20,16 @@ feel 1
 little 2
 strange 1
 anxious 1
-it's 1
+its 1
 fear 25
 have 13
 constant 5
 that 11
-something's 6
+somethings 6
 always 10
 near 5
 phobia 5
-someone's 5
+someones 5
 there 7
 you 8
 run 1
@@ -42,7 +41,7 @@ felt 1
 neck 1
 skin 1
 crawl 1
-you're 3
+youre 3
 searching 1
 for 1
 scared 1
@@ -50,7 +49,7 @@ take 1
 look 2
 corner 1
 room 1
-you've 1
+youve 1
 sensed 1
 watching 2
 ever 1
@@ -61,7 +60,7 @@ footsteps 1
 behind 2
 turned 1
 around 1
-one's 1
+ones 1
 quicken 1
 pace 1
 find 1
@@ -69,7 +68,7 @@ hard 1
 again 1
 because 1
 sure 1
-there's 1
+theres 1
 someone 1
 horror 1
 films 1

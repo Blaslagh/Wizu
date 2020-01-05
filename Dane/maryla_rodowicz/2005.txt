@@ -40,7 +40,6 @@ czy 2
 szczêœliwy 1
 mnie 2
 goœæ 1
-/x2 1
 jak 4
 szalony 1
 uliczkami 1

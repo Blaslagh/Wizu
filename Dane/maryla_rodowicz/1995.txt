@@ -231,7 +231,6 @@ ciotk¹ 1
 byleby 1
 zostaæ 1
 idiotk¹ 1
-[5x] 1
 dododo 2
 dobry 6
 bo¿e 5
@@ -693,7 +692,6 @@ ból 1
 istnienia 1
 wam 2
 doskwiera 1
-[3x] 3
 tamten 1
 wieczór 1
 pamiêtam 1
@@ -782,7 +780,6 @@ wyjrzyjcie 1
 ulice 1
 zobaczyæ 1
 wygl¹da 1
-[4x] 1
 tobie 2
 ciebie 5
 rumieniec 2

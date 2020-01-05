@@ -317,7 +317,7 @@ mój 1
 wolny 1
 ptak 1
 przes³anie 1
-c'est 5
+cest 5
 vie 5
 raczej 1
 serial 1

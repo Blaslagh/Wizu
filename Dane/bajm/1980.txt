@@ -78,7 +78,6 @@ prostu 1
 niech 1
 zostanie 1
 tak 12
-[2x] 1
 rano 7
 kiedy 4
 budzê 3

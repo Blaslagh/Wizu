@@ -165,7 +165,6 @@ ciê 1
 rêce 1
 przeniosê 1
 ka³u¿e 1
-[3x] 1
 sia 2
 kiedy 2
 by³ 3
@@ -346,7 +345,6 @@ dziewcz¹t 1
 m³odych 1
 zbo¿a 1
 kosiæ 1
-[2x] 1
 przekrêæ 1
 góry 1
 nogami 1

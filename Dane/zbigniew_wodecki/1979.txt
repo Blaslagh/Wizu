@@ -41,8 +41,8 @@ ktoœ 4
 przy 2
 mnie 5
 mo¿e 3
-[solo 1
-tr¹bce] 1
+solo 1
+tr¹bce 1
 mamy 3
 prawdziwy 3
 nasz 5
@@ -242,7 +242,6 @@ s³yszysz 1
 czujesz 1
 nowy 1
 rytm 1
-[2x] 2
 graj 6
 muzyko 2
 g³oœno 2

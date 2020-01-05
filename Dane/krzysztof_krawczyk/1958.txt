@@ -23,7 +23,7 @@ know 1
 who 1
 placed 1
 call 1
-'cause 1
+cause 1
 uncle 1
 took 1
 message 1
@@ -31,10 +31,10 @@ and 3
 wrote 1
 wall 1
 marie 3
-she's 2
+shes 2
 only 3
 one 1
-who'd 1
+whod 1
 phone 1
 here 1
 from 3

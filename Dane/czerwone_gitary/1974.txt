@@ -35,7 +35,7 @@ wiêcej 2
 bia³¹ 1
 plam¹ 1
 twej 1
-[instrum] 2
+instrum 2
 jesteœ 6
 s³owem 5
 dŸwiêkiem 1
@@ -683,9 +683,7 @@ zgo³a 1
 skoñczy³o 1
 wie 1
 zosta³ 1
-[ma³goœka 1
-ma³goœka 2
-ma³goœka] 1
+ma³goœka 4
 zobacz 3
 paj¹ki 1
 tka³y 1

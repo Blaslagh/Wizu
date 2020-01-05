@@ -563,7 +563,6 @@ przy 1
 ¿yjesz 1
 nieodleg³a 1
 snach 1
-/x2 1
 tylu 2
 czekam 1
 zbyszek 29

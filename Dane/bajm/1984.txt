@@ -287,7 +287,7 @@ pracuj 1
 cichutku 1
 maleñkim 1
 ogródku 1
-[solówka] 1
+solówka 1
 wielki 9
 wóz 2
 œwieci³ 2
@@ -305,7 +305,6 @@ budowali 2
 pomnik 5
 swój 3
 nieba 3
-[2x] 3
 oho 18
 wielkie 10
 piramidy 9

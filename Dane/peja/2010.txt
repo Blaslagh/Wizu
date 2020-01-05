@@ -39,7 +39,7 @@ zw³oki 1
 panicz 2
 ratatata 1
 errata 1
-tedego 4
+tedego 5
 gwozdz 1
 trumny 1
 tede 32
@@ -150,7 +150,7 @@ wsluchaj 1
 uwaznie 1
 wiesz 11
 czym 3
-diss 7
+diss 8
 polega 1
 ¿eby 6
 pojechac 1
@@ -266,7 +266,7 @@ wyzywasz 1
 debili 1
 ³ysch 1
 dojebanych 1
-[kill 1
+kill 1
 him 1
 czy¿by 2
 pozazdroscili 1
@@ -337,12 +337,11 @@ deszcz 1
 komercyjna 1
 prostytutka 1
 alias 1
-tdf 4
+tdf 5
 jedzie 2
 scena 1
 peja 8
 kiepskie 4
-diss' 1
 lec¹ 2
 kosz 1
 zamykam 1
@@ -437,7 +436,7 @@ pod³y 1
 komercyjny 1
 psie 1
 trzymasz 1
-hiphop'em 1
+hiphopem 1
 otwórz 1
 jeœli 12
 chcesz 20
@@ -544,7 +543,6 @@ najgorzej 2
 bêdziesz 4
 by³eœ 7
 drogi 1
-tdf' 1
 kawa³ki 1
 stresuj¹ 1
 maksa 2
@@ -575,7 +573,7 @@ wyt³umacz¹ 1
 brak 1
 odpowiedzi 1
 komu 1
-rysiek’owy 1
+rysiekowy 1
 poziom 2
 ziom 1
 raczej 5
@@ -787,7 +785,7 @@ pfk 1
 cisn¹ 1
 firmie 1
 debilne 1
-ostr’y 1
+ostry 1
 bogiem 1
 prostak 2
 zobacz 1
@@ -818,7 +816,6 @@ zaprzestaæ 1
 s³uchaæ 1
 choæby 1
 rzecz 1
-tede’go 1
 molesty 3
 wesprzesz 1
 eldoke 2
@@ -951,7 +948,7 @@ zgoda 1
 charyzm¹ 1
 mia¿d¿y 1
 doda 1
-beef'u 1
+beefu 3
 ¿a³owa³ 1
 tracisz 1
 szkoda 2
@@ -1011,7 +1008,7 @@ móg³ 2
 wczeœniej 2
 spytaj 3
 przyjeba³ 1
-'klanie' 1
+klanie 1
 reprezentantów 1
 biedy 1
 wujek 2
@@ -1057,10 +1054,10 @@ prowokuj 1
 myœlisz 1
 wygra³eœ 1
 racja 1
-al'a 1
+ala 1
 filmiki 1
 œmiesz¹ 1
-'bezele' 1
+bezele 1
 zwyk³ym 1
 cwelem 1
 kumpel 2
@@ -1083,7 +1080,7 @@ okry³ 1
 hañb¹ 1
 ¿yjesz 1
 przypierdoli³em 1
-jay'owi 1
+jayowi 1
 prodigy 1
 zanim 1
 dwa 2
@@ -1253,7 +1250,7 @@ przynosi 1
 miastu 2
 pocisk 1
 kó³ko 1
-robie] 1
+robie 1
 naprzód 1
 kombinujesz 1
 niezliczon¹ 1
@@ -1327,8 +1324,6 @@ celebrycie 1
 szczycie 2
 smród 1
 wyciek³ 1
-[¿e 1
-co] 1
 ko³obrzegu 1
 pobili 1
 ¿eœ 6
@@ -1648,7 +1643,7 @@ kablach 1
 strzykawkach 1
 dzia³ka 1
 nagraæ 2
-diss'u 1
+dissu 1
 kawa³ka 1
 pojecha³em 1
 moleœcie 1
@@ -1717,7 +1712,7 @@ przed 2
 kim 5
 przej¹³eœ 1
 schedê 1
-skinhead'em 1
+skinheadem 1
 wstydzisz 1
 pawe³ 1
 wczoraj 1
@@ -1746,7 +1741,7 @@ ojej 1
 macham 1
 sztang¹ 1
 machnij 1
-joy'em 1
+joyem 1
 gnoje 1
 powtarzaj¹ 1
 tedziku 1
@@ -1762,7 +1757,7 @@ tupac 1
 porównania 1
 macie 5
 s³abych 1
-mc's 3
+mcs 3
 tytu³ 1
 jeden 3
 drugim 1
@@ -1967,7 +1962,6 @@ pora¿kê 1
 walczê 1
 band¹ 2
 cieniasów 1
-beefu 2
 warszaw¹ 1
 onar 1
 mes 1
@@ -2100,7 +2094,7 @@ zniszczy³ 1
 skillsy 1
 zabi³ 1
 pejson 1
-bulls'a 1
+bullsa 1
 mason 1
 le¿y 1
 kurwisko 1

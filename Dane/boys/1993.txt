@@ -55,12 +55,11 @@ ona 1
 ¿ycia 6
 nauczysz 3
 boys 2
-techno 1
-[powtarzane 1
+techno 2
+powtarzane 1
 wielokrotnie 1
 rytm 1
 muzyki 1
-techno] 1
 czemu 6
 ciê¿ko 1
 jest 21

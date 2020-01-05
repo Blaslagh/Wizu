@@ -30,7 +30,6 @@ pobrzêkuj¹ 6
 stolicy 6
 oko 4
 wek 4
-/2x 1
 jak 1
 szpiedzy 1
 czasie 1
@@ -55,4 +54,3 @@ noc 1
 pi¹tkow¹ 1
 powracaj¹ 1
 macierzy 3
-/3x 1

@@ -310,7 +310,6 @@ pamiêtam 1
 drog¹ 1
 donik¹d 1
 moj¹ 1
-[4x] 2
 ulicy 1
 stachowicza 1
 pod 1
@@ -356,7 +355,6 @@ jednej 1
 bezsenne 1
 przyjd¹ 1
 noce 1
-[2x] 1
 nasze 9
 myœli 3
 powozy 1
@@ -408,7 +406,6 @@ coraz 1
 mniejsze 1
 ¿ony 1
 piêkniejsze 1
-[3x] 1
 pejza¿e 1
 wrogiego 1
 snu 2
@@ -573,7 +570,6 @@ zniknê 1
 drodze 1
 mlecznej 1
 wielkiej 1
-[5x] 1
 kosmos 2
 pó³nagi 2
 pozamykany 1

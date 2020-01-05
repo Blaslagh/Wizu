@@ -401,7 +401,6 @@ cudzy 2
 krawat 1
 dramat 1
 sama 2
-[5x] 1
 nieœpiesznie 1
 wschodzi 1
 ozimina 1

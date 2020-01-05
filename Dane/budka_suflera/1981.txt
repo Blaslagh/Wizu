@@ -336,7 +336,7 @@ trafi³ 2
 szlag 2
 zima 1
 zmy³a 1
-rock'n'rollem 2
+rocknrollem 2
 pachnie 2
 kraj 2
 wszêdzie 1
@@ -350,7 +350,7 @@ nami 1
 zrób 4
 coœ 4
 dla 4
-rock'n'rolla 4
+rocknrolla 4
 g³upio 1
 by³oby 1
 czekaæ 1

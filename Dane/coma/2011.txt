@@ -214,13 +214,12 @@ straty 4
 zmarnowanie 4
 winne 4
 wszystkiemu 2
-wychowanie 4
+wychowanie 5
 cierpienia 2
 narodu 2
 straszenie 2
 szatanem 2
 temu 2
-wychowanie/ 1
 mi³oœci 1
 moja 8
 naiwna 1
@@ -429,11 +428,10 @@ muuu 1
 nowy 4
 pokojowy 4
 zdrowy 4
-duch 3
+duch 4
 krowy 5
 odnowy 4
 g³ów 4
-duch/ 1
 metafory 2
 taka 1
 zestawiania 1
@@ -457,7 +455,7 @@ mn¹ 1
 biæ 1
 wyczesaæ 1
 emocji 1
-[2x]woda 1
+2xwoda 1
 le¿y 2
 pod 4
 powierzchni¹ 6
@@ -466,7 +464,7 @@ gesty 1
 wyja³owiony 1
 prosze 1
 byæ 1
-[4x]woda 1
+4xwoda 1
 centralnej 1
 czêœci 1
 bezpieczne 1

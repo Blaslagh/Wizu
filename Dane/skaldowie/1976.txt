@@ -77,7 +77,6 @@ nie 28
 przysz³aœ 1
 by³abyœ 2
 bogata 2
-[2x] 6
 sto 4
 tysiêcy 4
 z³otych 4

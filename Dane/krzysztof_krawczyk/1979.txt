@@ -87,7 +87,6 @@ smak 1
 zrozumie 1
 panno 1
 hej 1
-[2x] 5
 ooooo 1
 barbaro 15
 pamiêtasz 3
@@ -536,8 +535,8 @@ patrzy³aœ 1
 sama 1
 czasem 5
 przysz³y 1
-/podwy¿ka 1
-tonu/ 1
+podwy¿ka 1
+tonu 1
 znam 4
 twego 2
 imienia 2
@@ -761,7 +760,7 @@ felt 1
 burning 1
 deep 1
 inside 1
-don't 16
+dont 16
 know 2
 what 2
 exactly 1
@@ -783,10 +782,10 @@ longer 3
 parting 3
 fact 3
 life 4
-you're 7
+youre 7
 free 3
 forever 3
-i'll 3
+ill 3
 here 3
 you 17
 need 3
@@ -803,7 +802,7 @@ has 1
 made 1
 feel 3
 before 9
-it's 1
+its 1
 last 1
 will 1
 bring 1

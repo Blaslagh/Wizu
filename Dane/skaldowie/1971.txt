@@ -113,7 +113,6 @@ dziewczyny 1
 wyciska³ 1
 tylko 3
 wiatr 9
-[2x] 1
 hej 7
 ile 6
 naszych 11

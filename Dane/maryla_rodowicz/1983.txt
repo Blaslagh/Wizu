@@ -1,3 +1,13 @@
+napoleon 22
+jestem 7
+cesarzem 16
+mam 5
+chêæ 16
+przecie¿ 23
+jest 25
+zosta³ 14
+mia³ 14
+ju¿ 6
 go³êbie 2
 wszystkich 4
 placów 2
@@ -55,7 +65,6 @@ czy 5
 przed 3
 burz¹ 2
 zawsze 4
-jest 14
 tak 5
 piêknie 2
 pogodnie 2
@@ -83,7 +92,6 @@ naszych 1
 serc 1
 znów 3
 choæ 3
-ju¿ 5
 starszy 1
 bóg 1
 nad 1
@@ -115,7 +123,6 @@ budŸ 10
 ten 7
 sen 10
 którym 4
-jestem 6
 uwierz 3
 ci¹gle 3
 chcê 6
@@ -152,7 +159,6 @@ drogi 1
 nawet 1
 zbawiæ 1
 nikt 2
-przecie¿ 12
 przeszkodzi 1
 wpadnie 1
 œlad 1
@@ -162,7 +168,6 @@ szalona 1
 mieszkam 1
 twoim 1
 œnie 1
-[4x] 1
 ojciec 1
 niczem 2
 matka 1
@@ -178,7 +183,6 @@ gwiezdne 1
 œmigam 1
 ostro 2
 zajezdniê 1
-mam 4
 dwie 1
 cztery 1
 rêce 1
@@ -229,7 +233,6 @@ teraz 2
 krzyczy 2
 dajcie 1
 rêcznik 1
-[2x] 2
 nudnym 2
 party 2
 gwadelupie 2
@@ -347,8 +350,3 @@ przegrane 2
 nagroda 2
 bêdê 2
 [3x] 1
-napoleon 11
-cesarzem 8
-chêæ 8
-zosta³ 7
-mia³ 7

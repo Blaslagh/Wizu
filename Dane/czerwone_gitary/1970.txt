@@ -318,7 +318,7 @@ przy 1
 pustym 1
 stole 1
 dojrzyj 2
-[instrum] 1
+instrum 1
 dniem 4
 b³êkitnieje 1
 portal 1

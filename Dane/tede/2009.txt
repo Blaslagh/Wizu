@@ -675,7 +675,7 @@ rysiu 2
 tonie 1
 okrêt 1
 twoje 1
-a'la 1
+ala 1
 filmiki 1
 wypierdalaj 3
 ³ajnem 1
@@ -738,7 +738,7 @@ wiêc 2
 czym 4
 kogo 1
 królu 1
-freestyle'u 1
+freestyleu 1
 ¿adnego 1
 kawa³ków 1
 zczaisz 1
@@ -889,7 +889,7 @@ siksy 1
 czujesz 2
 zajebisty 1
 przychodzi 1
-4runner'em 1
+4runnerem 1
 prawej 1
 jedn¹ 1
 modelek 1
@@ -921,7 +921,7 @@ najlepiej 1
 potrafiê 1
 dzieje 1
 onarem 1
-jay'em 1
+jayem 1
 dziesi¹tym 1
 zw³oki 1
 wydajê 1

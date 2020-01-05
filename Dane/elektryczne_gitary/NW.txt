@@ -1887,7 +1887,6 @@ krajobrazowe 2
 ref 2
 wolni 6
 mo¿emy 6
-/2x 1
 robaczek 1
 swej 1
 dziurce 1
@@ -2115,7 +2114,7 @@ start 2
 nieskoñczona 2
 popuszczê 2
 bertrana 1
-d'alamanon 1
+dalamanon 1
 12301266 1
 grzech 4
 uciek³em 4

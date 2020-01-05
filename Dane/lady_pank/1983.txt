@@ -192,7 +192,7 @@ jedyny 1
 sport 1
 spojrzê 1
 dooko³a 1
-d¿ungla/2 2
+d¿ungla2 2
 otwieram 1
 drzwi 1
 znów 5
@@ -208,7 +208,7 @@ wschodzie 1
 progiem 1
 mój 1
 normalny 1
-refren/2 1
+refren2 1
 mog³aœ 10
 moj¹ 5
 byæ 10
@@ -320,7 +320,7 @@ plecach 1
 klepie 1
 kieliszku 1
 pieni 1
-rock'n'roll'a 1
+rocknrolla 1
 ho³d 1
 wieczorem 1
 zaczyna 1

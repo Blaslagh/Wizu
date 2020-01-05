@@ -161,10 +161,10 @@ unproperly 1
 game 1
 say 1
 the 3
-invitation's 1
+invitations 1
 ready 1
 and 10
-i've 1
+ive 1
 got 1
 number 1
 eyes 2
@@ -182,10 +182,9 @@ there 5
 everybody 5
 lose 3
 when 2
-i'm 2
 hearing 2
 voice 2
-can't 6
+cant 6
 get 2
 choice 2
 myself 2
@@ -194,7 +193,7 @@ hands 1
 undress 1
 hope 2
 phone 2
-won't 2
+wont 2
 ring 2
 confuse 1
 zobacz 2

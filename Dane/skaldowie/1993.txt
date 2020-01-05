@@ -136,7 +136,6 @@ razem 1
 pastuszkami 1
 œwiêt¹ 1
 panienk¹ 1
-[2x] 11
 cytr¹ 1
 salomona 1
 harf¹ 1
@@ -304,7 +303,6 @@ b³ogos³awiê 2
 ciebie 13
 œmiertelnymi 2
 ¿³obie 2
-[8x] 1
 spad³y 1
 pastuszkowie 5
 przybiegli 1
@@ -402,7 +400,6 @@ wichrze 2
 grajcie 2
 góralskie 2
 skrzypce 2
-[3x] 1
 kocha³em 1
 nadal 1
 kocham 1
@@ -472,7 +469,6 @@ ksiêgami 1
 mêdrcy 1
 najwiêksi 1
 pierwsi 1
-[4x] 1
 orany 1
 piêkny 6
 panienki 6

@@ -1,4 +1,4 @@
-czary 5
+czary 6
 mary 4
 sta³ 4
 siê 8
@@ -13,7 +13,7 @@ mia³ 3
 byæ 3
 pech 6
 zmieni³aœ 3
-œmiech 2
+œmiech 3
 13ty 2
 pi¹tek 2
 czarny 2
@@ -83,9 +83,6 @@ rydz 1
 przecie¿ 1
 nic 1
 jakieœ 1
-[2x] 1
-/czary 1
-œmiech/ 1
 przed 1
 snem 1
 jeszcze 1

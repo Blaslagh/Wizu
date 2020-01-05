@@ -104,7 +104,7 @@ zliczyæ 1
 trzech 1
 byæ 7
 five 1
-o'clock 1
+oclock 1
 taki 1
 krok 1
 prawdê 1

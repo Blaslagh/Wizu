@@ -71,7 +71,7 @@ lecz 2
 zosta³a 1
 piosenka 8
 canzone 6
-d'amore 6
+damore 6
 mi³oœci 6
 nasze 7
 ma³e 6

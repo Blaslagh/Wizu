@@ -10,7 +10,6 @@ called 2
 name 2
 said 2
 come 2
-i’m 2
 feeling 3
 bad 3
 drove 1
@@ -47,7 +46,7 @@ side 6
 breath 4
 heart 6
 hand 4
-it's 1
+its 6
 only 1
 the 18
 love 4
@@ -88,9 +87,9 @@ told 1
 came 1
 but 4
 just 2
-couldn’t 1
+couldnt 1
 stay 1
-don’t 11
+dont 11
 really 1
 know 6
 began 2
@@ -129,7 +128,6 @@ than 1
 white 1
 sugar 1
 forget 1
-it’s 5
 not 1
 good 1
 teeth 1
@@ -142,7 +140,7 @@ had 5
 easy 4
 living 4
 lazy 4
-that’s 4
+thats 4
 wrong 4
 sitting 1
 thinking 1

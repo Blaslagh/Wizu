@@ -52,7 +52,7 @@ idol 1
 gitar¹ 1
 wreszcie 1
 znak 1
-punk/4 1
+punk4 1
 ledwo 2
 tylko 5
 odros³em 2

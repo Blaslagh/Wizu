@@ -121,7 +121,7 @@ poniós³ 1
 gorzk¹ 1
 dal 1
 zosta³o 4
-nam 8
+nam 9
 nic 4
 tylko 4
 s³owa 2
@@ -154,7 +154,6 @@ mg³ê 1
 dzieli 1
 oddala 1
 nas 5
-[3x] 1
 poranne 9
 s³oñce 8
 zapach 4
@@ -190,7 +189,7 @@ chcesz 1
 odnaleŸæ 1
 jakiœ 1
 sens 2
-poranna 7
+poranna 8
 dziewczyna 8
 znów 3
 noc¹ 2
@@ -207,8 +206,8 @@ twarz 1
 radio 1
 wita 1
 wysy³a 1
-sygna³y 1
-dnia' 1
+sygna³y 2
+dnia 2
 ¿yczy 1
 ¿eby 1
 snach 1
@@ -220,7 +219,6 @@ s³ów 4
 kawy 1
 któr¹ 1
 uœmiechem 1
-dnia 1
 podajesz 1
 zawsze 3
 bezskutecznie 1
@@ -228,13 +226,9 @@ chcê 1
 przegoniæ 1
 resztki 1
 snu 1
-[2x] 1
-/poranna 1
-nam/ 1
 minê³a 1
 godzina 1
 szósta 1
-sygna³y' 1
 powiedz 4
 si³¹ 1
 piosenki 2

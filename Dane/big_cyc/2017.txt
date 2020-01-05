@@ -26,7 +26,6 @@ caracas 1
 viva 4
 san 2
 escobar 2
-/4x 2
 wyl¹duj¹ 1
 grande 2
 villa 1

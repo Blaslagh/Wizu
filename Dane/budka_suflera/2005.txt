@@ -126,7 +126,7 @@ auch 1
 meine 1
 hielten 1
 mehr 6
-werd` 6
+werd 6
 rufen 2
 einem 2
 neuen 2
@@ -196,7 +196,7 @@ blues 1
 siê 7
 urwa³ 1
 nagle 1
-george'a 2
+georgea 2
 trafi³ 1
 szlag 1
 t³um 1

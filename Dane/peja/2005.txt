@@ -515,7 +515,7 @@ klimaty 1
 raty 1
 konspiry 1
 solidarnoœæ 1
-prl'u 1
+prlu 1
 lojalnoœæ 1
 g³os 1
 buntu 1
@@ -636,7 +636,7 @@ wewn¹trz 1
 czêsto 1
 wsadzony 1
 zamek 1
-21/8 1
+218 1
 dom 3
 pe³en 1
 niespodzianek 1
@@ -1187,7 +1187,7 @@ czêstuje 1
 hajem 1
 robiæ 2
 jajem 1
-freestyle'owaæ 1
+freestyleowaæ 1
 przestajê 1
 kolejny 1
 ranem 1
@@ -1385,7 +1385,7 @@ wstawaj 1
 bêdê 1
 krzycza³ 1
 danzel 1
-it's 1
+its 1
 working 1
 dzia³a 1
 w³¹cz 1
@@ -1518,7 +1518,7 @@ sklepie 1
 hajs 2
 ostatni 2
 orygina³ 1
-cd'ek 1
+cdek 1
 wydawa³em 1
 punkt 1
 dodatni 1
@@ -1553,7 +1553,7 @@ chcecie 1
 dupeczki 1
 bym 1
 waszych 1
-fake’ów 1
+fakeów 1
 wyrêczy³ 1
 kozaków 1
 majkach 1
@@ -1586,10 +1586,9 @@ rozczulaæ 1
 faktu 2
 swayze 2
 zapuszkowa³ 2
-rule’a 2
+rulea 2
 moja 1
 zawarte 1
 wreszcie 1
 pojmij 1
 jarzysz 3
-[x2] 1

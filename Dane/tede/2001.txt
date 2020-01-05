@@ -255,10 +255,8 @@ gauœ 1
 ostasz 1
 ztj 1
 lato 1
-'97 1
 pamiêtam 5
 dobrze 2
-'99 1
 kumpla 1
 pogrzeb 1
 mój 5
@@ -844,7 +842,7 @@ wady 1
 d³u¿ej 1
 realizowaæ 1
 sny 1
-24/7 1
+247 1
 653 1
 koñcu 1
 œni 1

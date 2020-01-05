@@ -95,7 +95,7 @@ zmieniaj¹ 1
 ¿ycia 2
 bieg 1
 jaœ 2
-[podpala] 1
+podpala 1
 g³oœno 2
 wrzeszczy 1
 coœ 3

@@ -1,7 +1,7 @@
 eins 2
 zwei 2
 drei 1
-heut' 8
+heut 8
 singt 1
 der 12
 wind 3
@@ -86,12 +86,12 @@ junge 2
 sah 1
 hübsches 1
 folgte 1
-durch's 1
+durchs 1
 ganze 1
 städtchen 1
 irgendwann 1
 sprach 2
-konnt' 1
+konnt 1
 entscheiden 1
 beiden 1
 nun 1
@@ -206,7 +206,7 @@ suppe 6
 kocht 3
 schon 3
 weile 3
-hab' 3
+hab 3
 einen 3
 hafersaft 3
 dich 3
@@ -277,7 +277,6 @@ rief 1
 also 1
 übernachte 1
 draussen 1
-[7x] 1
 by³ 2
 maj 2
 pachnia³a 1
@@ -380,7 +379,6 @@ gdzieœ 1
 dnie 1
 wio 14
 koniku 11
-[4x] 1
 postarasz 5
 kolacjê 5
 zajedziemy 5
@@ -472,7 +470,6 @@ ciê 1
 dowioz³a 1
 zawsze 1
 koñ 1
-[6x] 1
 œwiat 4
 mój 2
 pewnie 2
