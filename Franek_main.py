@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 
 
-#       main z moja sciezka, chcesz swoj? ZRÓB SE!
-
 import os
 
 os.chdir(r"C:\Users\grzon\Documents\Python\Wizuala\Wizu")
