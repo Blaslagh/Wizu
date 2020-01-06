@@ -92,3 +92,18 @@ def analizka_lat(sciezka):
 	finally:
 		zapis.close()
 	return
+
+def wczytywanko(sciezka):
+	if not os.path.exists(sciezka):
+		print("Ni ma")
+		return False
+	elif os.path.isdir(sciezka):
+		print("nie plik")
+		return
+	else:
+		zapis = open( sciezka ,'r')
+		slownik={}
+		for x in zapis.readlines():
+			slownik[x.split()[0]] = x.split()[1]
+		zapis.close()
+		return slownik
