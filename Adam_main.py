@@ -30,4 +30,6 @@ def chmury_dla_wszystkich_nie_rob_plox():
     chmurkowanko2.chmury_4_all("Dane")
     return
 
-przetwarzanko.czytaj_x(przetwarzanko.wczytywanko("Dane.txt"),2)
+przetwarzanko.czytaj_x(przetwarzanko.wczytywanko("Dane.txt"), 2)
+
+przetwarzanko.skomplikowalnosc(przetwarzanko.wczytywanko("Dane.txt"))

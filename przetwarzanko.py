@@ -112,7 +112,7 @@ def wczytywanko(sciezka):
 
 def skomplikowalnosc(slownik_tekst):
 	rozne = len( slownik_tekst.keys() )
-	ilosc = sum( slownik_tekst.values() )
+	ilosc = sum( [ int(x) for x in slownik_tekst.values() ] )
 	return (rozne/ilosc)
 
 def czytaj_x( slownik, x=10 ):
