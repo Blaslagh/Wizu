@@ -15,7 +15,7 @@ def wykresuj_lata(wejscie, artysta):
 	plt.title(artysta)
 	plt.savefig("Lata\\wykresy\\"+artysta+".jpg")
 
-def wykresuj_lata_ograniczone(wejscie, artysta):
+def wykresuj_lata_ograniczone(wejscie, artysta, srednia_wszyscy):
 	plt.clf()
 	if wejscie == False:
 		print("dupcia "+artysta)
@@ -23,8 +23,10 @@ def wykresuj_lata_ograniczone(wejscie, artysta):
 	x = [int(i) for i in wejscie.keys() if ( int(i) > 1960 and int(i) < 2020 )]
 	y = [int(wejscie[str(i)]) for i in x]
 	y_srednia = [sum(y)/len(x)]*len(x)
+	all_srednia = [srednia_wszyscy]*len(x)
 	plt.plot( x, y, 'ro' )
 	plt.plot( x, y_srednia, linestyle='--')
+	plt.plot( x, all_srednia, linestyle='--')
 	plt.grid(True)
 	plt.xlim(min(x)-2, 2020)
 	plt.xlabel(r"Rok")
@@ -32,3 +34,6 @@ def wykresuj_lata_ograniczone(wejscie, artysta):
 	plt.title(artysta)
 	plt.savefig("Lata\\wykresy\\"+artysta+"_o.jpg")
 	plt.show()
+
+
+
