@@ -37,3 +37,20 @@ def chmury_4_all(sciezka):
 				print( "o", end = '' )
 			except:
 				print( "N", end = '' )
+	return
+
+
+def chmuruj_slownik_ponad_4(wejscie_slownik=przetwarzanko.wczytywanko("Dane.txt"), sciezka='chmura.jpg'):
+
+	slownik_do_chmury = {}
+
+	for i in wejscie_slownik.keys():
+		if len(str(i)) > 3:
+			slownik_do_chmury[ str(i) ] = float( wejscie_slownik[i] )
+
+	wordcloud = WordCloud().generate_from_frequencies(slownik_do_chmury)
+
+	plt.imshow(wordcloud, interpolation="bilinear")
+	plt.axis("off")
+	plt.savefig(sciezka)
+	return
