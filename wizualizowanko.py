@@ -22,11 +22,13 @@ def wykresuj_lata_ograniczone(wejscie, artysta):
 		return
 	x = [int(i) for i in wejscie.keys() if ( int(i) > 1960 and int(i) < 2020 )]
 	y = [int(wejscie[str(i)]) for i in x]
+	y_srednia = [sum(y)/len(x)]*len(x)
 	plt.plot( x, y, 'ro' )
+	plt.plot( x, y_srednia, linestyle='--')
 	plt.grid(True)
-	plt.xlim(1960, 2020)
+	plt.xlim(min(x)-2, 2020)
 	plt.xlabel(r"Rok")
 	plt.ylabel(r"Ilość wydanych utworów")
 	plt.title(artysta)
 	plt.savefig("Lata\\wykresy\\"+artysta+"_o.jpg")
-
+	plt.show()
