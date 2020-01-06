@@ -39,7 +39,6 @@ def chmury_4_all(sciezka):
 				print( "N", end = '' )
 	return
 
-
 def chmuruj_slownik_ponad_4(wejscie_slownik=przetwarzanko.wczytywanko("Dane.txt"), sciezka='chmura.jpg'):
 
 	slownik_do_chmury = {}
@@ -54,3 +53,4 @@ def chmuruj_slownik_ponad_4(wejscie_slownik=przetwarzanko.wczytywanko("Dane.txt"
 	plt.axis("off")
 	plt.savefig(sciezka)
 	return
+

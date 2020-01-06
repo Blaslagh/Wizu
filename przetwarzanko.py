@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import os
+import win32com.client as wincl
+speak = wincl.Dispatch("SAPI.SpVoice")
 
 
 def zlicz_slowa(tekst,lista_slow):
@@ -113,3 +115,8 @@ def skomplikowalnosc(slownik_tekst):
 	ilosc = sum( slownik_tekst.values() )
 	return (rozne/ilosc)
 
+def czytaj_10(slownik_tekst):
+	zbior=[i for i in list({k: v for k, v in sorted(slownik_tekst.items(), key=lambda item: item[1],reverse=True)}.keys())[0:10]]
+	for i in zbior:
+		speak.Speak(str(i))
+	return

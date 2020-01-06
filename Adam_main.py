@@ -30,4 +30,4 @@ def chmury_dla_wszystkich_nie_rob_plox():
     chmurkowanko2.chmury_4_all("Dane")
     return
 
-chmurkowanko2.chmuruj_slownik_ponad_4()
+przetwarzanko.czytaj_10(przetwarzanko.wczytywanko("Dane.txt"))
