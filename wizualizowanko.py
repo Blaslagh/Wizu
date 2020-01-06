@@ -12,7 +12,7 @@ def wykresuj_lata(wejscie, artysta):
 	plt.xlabel(r"Rok")
 	plt.ylabel(r"Ilość wydanych utworów")
 	plt.title(artysta)
-	plt.savefig("Lata\\"+artysta+".jpg")
+	plt.savefig("Lata\\wykresy\\"+artysta+".jpg")
 
 def wykresuj_lata_ograniczone(wejscie, artysta):
 	if wejscie == False:
@@ -24,4 +24,4 @@ def wykresuj_lata_ograniczone(wejscie, artysta):
 	plt.xlabel(r"Rok")
 	plt.ylabel(r"Ilość wydanych utworów")
 	plt.title(artysta)
-	plt.savefig("Lata\\"+artysta+"_o.jpg")
+	plt.savefig("Lata\\wykresy\\"+artysta+"_o.jpg")
