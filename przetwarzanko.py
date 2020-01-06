@@ -107,3 +107,8 @@ def wczytywanko(sciezka):
 			slownik[x.split()[0]] = x.split()[1]
 		zapis.close()
 		return slownik
+
+def skomplikowalnosc(slownik_tekst):
+	rozne = len( slownik_tekst.keys() )
+	ilosc = sum( slownik_tekst.values() )
+	return (rozne/ilosc)
