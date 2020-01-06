@@ -115,8 +115,8 @@ def skomplikowalnosc(slownik_tekst):
 	ilosc = sum( slownik_tekst.values() )
 	return (rozne/ilosc)
 
-def czytaj_10(slownik_tekst):
-	zbior=[i for i in list({k: v for k, v in sorted(slownik_tekst.items(), key=lambda item: item[1],reverse=True)}.keys())[0:10]]
+def czytaj_x( slownik, x=10 ):
+	zbior = [ i for i in list( {k: v for k, v in sorted( slownik.items(), key=lambda item: item[1], reverse=True)}.keys() )[0:x] ]
 	for i in zbior:
 		speak.Speak(str(i))
 	return
