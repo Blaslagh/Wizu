@@ -16,7 +16,7 @@ def srednia_wszystkich():
     wejscie = wczytywanko("Lata\\wszyscy.txt")
     lata = [int(i) for i in wejscie.keys() if ( int(i) > 1960 and int(i) < 2020 )]
     ilosc_utworow = [int(wejscie[str(i)]) for i in lata]
-	all_srednia = sum(ilosc_utworow)/(len(lata)*20)
+	all_srednia = sum(ilosc_utworow)/(len(lata)*19)
     return all_srednia
 
 def wykresy_po_latach():
