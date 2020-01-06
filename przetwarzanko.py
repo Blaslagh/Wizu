@@ -101,11 +101,11 @@ def wczytywanko(sciezka):
 		print("nie plik")
 		return
 	else:
-		zapis = open( sciezka ,'r')
+		plik = open( sciezka ,'r')
 		slownik={}
-		for x in zapis.readlines():
+		for x in plik.readlines():
 			slownik[x.split()[0]] = x.split()[1]
-		zapis.close()
+		plik.close()
 		return slownik
 
 def skomplikowalnosc(slownik_tekst):

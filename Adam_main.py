@@ -9,10 +9,11 @@ os.chdir("C:\\Users\\Adam\\Source\\Repos\\Blaslagh\\Wizu")
 
 import pobieranko, przetwarzanko, wizualizowanko, chmurkowanko2
 
-def nie_rob_plox():
+def od_zera_do_bohatera_nie_rob_plox():
     pobieranko.pobierz_od_zera()
     przetwarzanko.sumuj_lata("Dane")
     przetwarzanko.analizka_lat("Dane")
+    return
 
 def wykresy_po_latach():
     plik = open( "katalog_linkow.txt" ,'r')
@@ -23,5 +24,10 @@ def wykresy_po_latach():
     for art in artysci:
         wizualizowanko.wykresuj_lata(przetwarzanko.wczytywanko("Lata\\"+art+".txt"), art)
         wizualizowanko.wykresuj_lata_ograniczone(przetwarzanko.wczytywanko("Lata\\"+art+".txt"), art)
+    return
 
-chmurkowanko2.chmuruj_slownik(przetwarzanko.wczytywanko(r'C:\Users\Adam\Source\Repos\Blaslagh\Wizu\Dane\tede.txt'))
+def chmury_dla_wszystkich_nie_rob_plox():
+    chmurkowanko2.chmury_4_all("Dane")
+    return
+
+chmurkowanko2.chmuruj_slownik()

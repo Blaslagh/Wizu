@@ -60,7 +60,7 @@ def pobierz_tekst(artysta, link):
 				for j in i.split("</tr>"):
 					if ('Rok powstania:' in j):
 						try:
-							rok=''.join(k for k in j if k.isdigit())[-4:]
+							rok=''.join([k for k in j if k.isdigit()])
 							if len(rok)<4:
 								rok="NW"
 						except:
@@ -70,7 +70,7 @@ def pobierz_tekst(artysta, link):
 			if ( 'class="song-text"' in i ): 
 				wlasciwy_kontener = i
 		print( '.', end = '' )
-		return artysta, rok, wlasciwy_kontener.replace("<br />","").replace("\\","").replace("/","").replace('’',"").replace('‘',"").replace(':',"").replace('`',"").replace('\'',"").replace(';',"").replace('"',"").replace("-","").replace(")","").replace("*","").replace("(","").replace("?","").replace(",","").replace(".","").replace("!","").replace('[',"").replace(']',"").lower().split()[4:-15]
+		return artysta, rok[-4:], wlasciwy_kontener.replace("<br />","").replace("\\","").replace("/","").replace('’',"").replace('‘',"").replace(':',"").replace('`',"").replace('\'',"").replace(';',"").replace('"',"").replace("-","").replace(")","").replace("*","").replace("(","").replace("?","").replace(",","").replace(".","").replace("!","").replace('[',"").replace(']',"").lower().split()[4:-15]
 	except:
 		print( "\n#", end = '' )
 	return

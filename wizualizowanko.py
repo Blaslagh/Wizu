@@ -20,7 +20,9 @@ def wykresuj_lata_ograniczone(wejscie, artysta):
 	if wejscie == False:
 		print("dupcia "+artysta)
 		return
-	plt.plot([int(x) for x in wejscie.keys()],  [int(wejscie[x]) for x in wejscie.keys()],'ro' )
+	x = [int(i) for i in wejscie.keys() if ( i > 1960 and i < 2020 )]
+	y = [int(wejscie[i]) for i in x]
+	plt.plot( x, y, 'ro' )
 	plt.grid(True)
 	plt.xlim(1960, 2020)
 	plt.xlabel(r"Rok")
