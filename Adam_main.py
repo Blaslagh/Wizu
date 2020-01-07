@@ -27,9 +27,14 @@ def wykresy_po_latach():
     return
 
 def chmury_dla_wszystkich_nie_rob_plox():
-    chmurkowanko2.chmury_4_all("Dane")
+    chmurkowanko2.chmury_4_all("Dane","Chmury3", 3)
+    chmurkowanko2.chmury_4_all("Dane","Chmury4", 4)
     return
 
-przetwarzanko.czytaj_x(przetwarzanko.wczytywanko("Dane\\maryla_rodowicz\\1998.txt"), 10)
+chmury_dla_wszystkich_nie_rob_plox()
+
+
+
+przetwarzanko.czytaj_x(przetwarzanko.wczytywanko("Dane.txt"), 10)
 
 przetwarzanko.skomplikowalnosc(przetwarzanko.wczytywanko("Dane\\lady_pank\\2.txt"))
