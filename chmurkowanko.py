@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from wordcloud import WordCloud, ImageColorGenerator
 import przetwarzanko
-from PIL import Image
+from PIL import Image, ImageFilter, ImageEnhance
 
 
 def chmuruj_slownik(wejscie_slownik=przetwarzanko.wczytywanko("Dane.txt"), sciezka='chmura.jpg'):
@@ -69,11 +69,15 @@ def chmury_z_grafik(wejscie_slownik, art, x=3):
 	mask = np.array(zdjecie)
 	
 	
-	chmurka = WordCloud( background_color="white", mode="RGB", mask=mask, max_font_size=50, max_words=3000, width=1500, height=1500, contour_width=0).generate_from_frequencies(slownik_do_chmury)
+	chmurka = WordCloud( background_color="white", mode="RGB", mask=mask, max_font_size=70, max_words=3000, width=1500, height=1500, contour_width=0).generate_from_frequencies(slownik_do_chmury)
 	image_colors = ImageColorGenerator(mask)
 	chmurka.recolor(color_func=image_colors)
 	chmurka.to_file('Chmury\\Grafochmurki\\'+art+'.jpg')
 	slowa=Image.open('Chmury\\Grafochmurki\\'+art+'.jpg')
 	slowa = slowa.resize(zdjecie.size)
-	polaczone = Image.blend(slowa,zdjecie,0.2)
+	zdjecie = zdjecie.filter(ImageFilter.BLUR)
+	zdjecie = ImageEnhance.Color(zdjecie)
+	zdjecie = zdjecie.enhance(0.5)
+	polaczone = Image.blend(slowa,zdjecie,0.15)
+
 	polaczone.save('Chmury\\Grafochmurki\\'+art+'_z_tlem.jpg')
