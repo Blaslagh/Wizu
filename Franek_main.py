@@ -5,7 +5,7 @@ import os
 
 os.chdir(r"C:\Users\grzon\Documents\Python\Wizuala\Wizu")
 
-import pobieranko, przetwarzanko, wizualizowanko, chmurkowanko2
+import pobieranko, przetwarzanko, wizualizowanko, chmurkowanko
 
 def od_zera_do_bohatera_nie_rob_plox():
     pobieranko.pobierz_od_zera()

@@ -69,10 +69,9 @@ def chmury_z_grafik(wejscie_slownik, art, x=3):
 			slownik_do_chmury[ str(i) ] = float( wejscie_slownik[i] )
 	
 	mask = np.array(Image.open('Chmury\\Grafiki_do_chmur\\'+art+'.jpg'))
-	chmurka = WordCloud( background_color="white", mode="RGBA", max_words=3000, mask=mask, max_font_size=40, width=1600, height=800).generate_from_frequencies(slownik_do_chmury)
+	chmurka = WordCloud( background_color="white", mode="RGBA", mask=mask, max_font_size=50, max_words=3000).generate_from_frequencies(slownik_do_chmury)
 	image_colors = ImageColorGenerator(mask)
-	plt.figure( figsize=(20,20) )
-	plt.imshow(wordcloud)
-	plt.imshow(chmurka.recolor(color_func=image_colors), interpolation="bilinear")
-	plt.axis("off")
-	plt.savefig('Chmury\\Grafochmurki\\'+art+'.png', format='png')
+	chmurka.recolor(color_func=image_colors)
+	chmurka.to_file('Chmury\\Grafochmurki\\'+art+'.png')
+
+	
