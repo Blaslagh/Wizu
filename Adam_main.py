@@ -7,7 +7,7 @@ import os
 
 os.chdir("C:\\Users\\Adam\\Source\\Repos\\Blaslagh\\Wizu")
 
-import pobieranko, przetwarzanko, wizualizowanko, chmurkowanko2
+import pobieranko, przetwarzanko, wizualizowanko, chmurkowanko
 
 def od_zera_do_bohatera_nie_rob_plox():
     pobieranko.pobierz_od_zera()
@@ -27,8 +27,8 @@ def wykresy_po_latach():
     return
 
 def chmury_dla_wszystkich_nie_rob_plox():
-    chmurkowanko2.chmury_4_all("Dane","Chmury3", 3)
-    chmurkowanko2.chmury_4_all("Dane","Chmury4", 4)
+    chmurkowanko.chmury_4_all("Dane","Chmury3", 3)
+    chmurkowanko.chmury_4_all("Dane","Chmury4", 4)
     return
 
 chmury_dla_wszystkich_nie_rob_plox()
