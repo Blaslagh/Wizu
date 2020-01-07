@@ -36,7 +36,7 @@ def wykresuj_lata_ograniczone(wejscie, artysta, srednia_wszyscy):
 		plt.xlabel(r"Rok")
 		plt.ylabel(r"Ilość wydanych utworów")
 		plt.title(artysta)
-	plt.savefig("Lata\\wykresy\\"+artysta+"_o.jpg")
+		plt.savefig("Lata\\wykresy\\"+artysta+"_o.jpg")
 	return
 
 def wykresuj_skomplikowanie_suma(wejscie):
@@ -54,14 +54,14 @@ def wykresuj_skomplikowanie_suma(wejscie):
 	wysokosci = [ x[i] for i in iksy ]
 	plt.clf()
 	with plt.style.context('seaborn-darkgrid'):
-		plt.bar( iksy, wysokosci, )
+		plt.bar( iksy, wysokosci )
 		plt.axhline(przetwarzanko.skomplikowalnosc(przetwarzanko.wczytywanko(wejscie+'.txt')), linestyle='--', color='dimgrey')
 		plt.grid(True)
 		plt.xticks(rotation='vertical')
 		plt.ylabel(r"Sumaryczna skomplikowalność tekstu")
 		plt.margins(0.1)
 		plt.subplots_adjust(bottom=0.4)
-	plt.savefig("Skomplikowanie.jpg")
+		plt.savefig("Skomplikowanie.jpg")
 	return
 
 def wykresuj_skomplikowanie_srednia(wejscie):
@@ -76,7 +76,7 @@ def wykresuj_skomplikowanie_srednia(wejscie):
 				wartosc = przetwarzanko.skomplikowalnosc( przetwarzanko.wczytywanko( wejscie+'\\'+artysta+'\\' + rok ) )
 				cos.append(wartosc)
 			except:
-				print("Stary coś poszło grubo nie tak "+wejscie+'\\'+artysta+'\\' + rok )
+				print("Błąd przetwarzania: "+wejscie+'\\'+artysta+'\\' + rok )
 		x[artysta[0:-4]] = sum(cos)/len(cos)
 			
 
@@ -84,12 +84,44 @@ def wykresuj_skomplikowanie_srednia(wejscie):
 	wysokosci = [ x[i] for i in iksy ]
 	plt.clf()
 	with plt.style.context('seaborn-darkgrid'):
-		plt.bar( iksy, wysokosci, )
+		plt.bar( iksy, wysokosci)
 		plt.axhline(sum(wysokosci)/len(wysokosci), linestyle='--', color='dimgrey')
 		plt.grid(True)
 		plt.xticks(rotation='vertical')
 		plt.ylabel(r"Średnia skomplikowalność tekstu")
 		plt.margins(0.1)
 		plt.subplots_adjust(bottom=0.4)
-	plt.savefig("Skomplikowanie_srednia.jpg")
+		plt.savefig("Skomplikowanie_srednia.jpg")
+	return
+
+def wykresuj_skomplikowanie_po_latach(wejscie):
+	if wejscie == False:
+		print("dupcia ")
+		return
+	x={}
+	for artysta in [x for x in os.listdir(wejscie) if os.path.isdir(wejscie+'\\'+x)]:
+
+		for rok in [x for x in os.listdir(wejscie+'\\'+artysta) if not os.path.isdir(wejscie+'\\'+artysta+'\\'+x)]:
+			try:
+				wartosc = przetwarzanko.skomplikowalnosc( przetwarzanko.wczytywanko( wejscie+'\\'+artysta+'\\' + rok ) )
+				if int(rok[0:-4]) in list(x.keys()):
+					x[int(rok[0:-4])].append(float(wartosc))
+				else:
+					x[int(rok[0:-4])] = [float(wartosc)]
+			except:
+				if rok[0:-4]=='NW':
+					continue
+				print("Błąd przetwarzania: "+wejscie+'\\'+artysta+'\\' + rok )
+	iksy = sorted([i for i in x.keys() if i<2020 and i>1950])
+	wysokosci = [ sum(x[i])/len(x[i]) for i in iksy ]
+	plt.clf()
+	with plt.style.context('seaborn-darkgrid'):
+		plt.axhline(sum(wysokosci)/len(wysokosci), linestyle='--', color='dimgrey')
+		plt.plot( iksy, wysokosci)
+		plt.grid(True)
+		plt.xticks(rotation='vertical')
+		plt.ylabel(r"Średnia skomplikowalność tekstu")
+		plt.margins(0.1)
+		plt.subplots_adjust(bottom=0.4)
+		plt.savefig("Skomplikowanie_w_latach.jpg")
 	return

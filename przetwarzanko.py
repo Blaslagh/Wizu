@@ -2,7 +2,8 @@
 
 import os
 import win32com.client as wincl
-speak = wincl.Dispatch("SAPI.SpVoice")
+from gtts import gTTS
+
 
 
 def zlicz_slowa(tekst,lista_slow):
@@ -117,6 +118,28 @@ def skomplikowalnosc(slownik_tekst):
 
 def czytaj_x( slownik, x=10 ):
 	zbior = list( {k: v for k, v in sorted( slownik.items(), key=lambda item: int(item[1]), reverse=True)}.keys() )[0:x]
-	for i in zbior:
-		speak.Speak(str(i))
+	wincl.Dispatch("SAPI.SpVoice").Speak("Walić w dupala windowsa i microsoft")
+	wincl.Dispatch("SAPI.SpVoice").Speak(zbior)
 	return
+
+def czytanko_dla_art(sciezka_in='Dane', sciezka_out='Czytanie', ilosc=10):
+	if not os.path.exists(sciezka_in):
+		print("Ni ma")
+		return
+	lata={}
+	if not os.path.exists(sciezka_out):
+		os.makedirs(sciezka_out)
+	for artysta in [x for x in os.listdir(sciezka_in) if not os.path.isdir(sciezka_in+'\\'+x)]:
+		try:
+			zapisz_czytanie(wczytywanko(sciezka_in+'\\'+artysta),sciezka_out+'\\'+artysta[0:-4], ilosc)
+			print( "o", end = '' )
+		except:
+			print( "N", end = '' )
+	return
+
+def zapisz_czytanie( slownik, sciezka_out='czytanie', x=1000 ):
+	zbior = ''.join(list( {k: v for k, v in sorted( slownik.items(), key=lambda item: int(item[1]), reverse=True)}.keys() )[0:x])
+	tts = gTTS(text=zbior, lang='pl', slow=True)
+	tts.save(sciezka_out+".mp3")
+	return
+

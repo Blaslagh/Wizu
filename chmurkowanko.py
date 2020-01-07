@@ -33,7 +33,7 @@ def chmuruj_slownik_ponad_x(wejscie_slownik=przetwarzanko.wczytywanko("Dane.txt"
 
 	return
 
-def chmury_4_all(sciezka_in, sciezka_out, ilosc):
+def chmury_4_all(sciezka_in="Dane.txt", sciezka_out="Def", ilosc=3):
 	if not os.path.exists(sciezka_in):
 		print("Ni ma")
 		return
@@ -54,7 +54,7 @@ def chmury_4_all(sciezka_in, sciezka_out, ilosc):
 		print( "\n", end = '' )
 	for artysta in [x for x in os.listdir(sciezka_in) if not os.path.isdir(sciezka_in+'\\'+x)]:
 		try:
-			chmuruj_slownik_ponad_x(przetwarzanko.wczytywanko(sciezka_in+'\\'+artysta+'.txt'),sciezka_out+'\\'+artysta+'.jpg', ilosc)
+			chmuruj_slownik_ponad_x(przetwarzanko.wczytywanko(sciezka_in+'\\'+artysta),sciezka_out+'\\'+artysta[0:-4]+'.jpg', ilosc)
 			print( "o", end = '' )
 		except:
 			print( "N", end = '' )
