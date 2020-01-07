@@ -38,7 +38,6 @@ def wykresuj_lata_ograniczone(wejscie, artysta, srednia_wszyscy):
 	plt.savefig("Lata\\wykresy\\"+artysta+"_o.jpg")
 	return
 
-
 def wykresuj_skomplikowanie_suma(wejscie):
 	if wejscie == False:
 		print("dupcia "+artysta)
@@ -65,7 +64,6 @@ def wykresuj_skomplikowanie_suma(wejscie):
 		plt.subplots_adjust(bottom=0.4)
 	plt.savefig("Skomplikowanie.jpg")
 	return
-
 
 def wykresuj_skomplikowanie_srednia(wejscie):
 	if wejscie == False:
@@ -95,6 +93,5 @@ def wykresuj_skomplikowanie_srednia(wejscie):
 		plt.ylabel(r"Średnia skomplikowalność tekstu")
 		plt.title("Ddd")
 		plt.margins(0.1)
-		plt.subplots_adjust(bottom=1)
 	plt.savefig("Skomplikowanie_srednia.jpg")
 	return
