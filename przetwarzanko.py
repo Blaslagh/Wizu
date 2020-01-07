@@ -149,5 +149,5 @@ def zapisz_czytanie( slownik=wczytywanko('Dane.txt'), sciezka_out='czytanie', x=
 	return
 
 def blagaj_o_3():
-	tts = gTTS(text="Panie Kreciku, błagamy niech pan da nam chociaż trzy", lang='pl', slow=True)
+	tts = gTTS(text="Panie Jabłonowski, błagamy niech pan da nam chociaż trzy", lang='pl', slow=True)
 	tts.save("blagam.mp3")
