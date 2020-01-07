@@ -81,3 +81,15 @@ def chmury_z_grafik(wejscie_slownik, art, x=3):
 	polaczone = Image.blend(slowa,zdjecie,0.15)
 
 	polaczone.save('Chmury\\Grafochmurki\\'+art+'_z_tlem.jpg')
+
+def chmury_4_art(sciezka_in="Dane", sciezka_out="Chmury", ilosc=3):
+	if not os.path.exists(sciezka_in):
+		print("Ni ma")
+		return
+	for artysta in [x for x in os.listdir(sciezka_in) if not os.path.isdir(sciezka_in+'\\'+x)]:
+		try:
+			chmuruj_slownik_ponad_x(przetwarzanko.wczytywanko(sciezka_in+'\\'+artysta),sciezka_out+'\\'+artysta[0:-4]+'.jpg', ilosc)
+			print( "o", end = '' )
+		except:
+			print( "N", end = '' )
+	return

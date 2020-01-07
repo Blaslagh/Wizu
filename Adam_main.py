@@ -48,3 +48,4 @@ wizualizowanko.wykresuj_skomplikowanie_srednia("Dane")
 wizualizowanko.wykresuj_skomplikowanie_suma("Dane")
 wizualizowanko.wykresuj_skomplikowanie_po_latach("Dane")
 
+chmurkowanko.chmury_4_art()
