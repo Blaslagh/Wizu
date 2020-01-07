@@ -29,10 +29,8 @@ def chmuruj_slownik_ponad_x(wejscie_slownik=przetwarzanko.wczytywanko("Dane.txt"
 			slownik_do_chmury[ str(i) ] = float( wejscie_slownik[i] )
 
 	wordcloud = WordCloud(max_font_size=50, max_words=100, background_color="white").generate_from_frequencies(slownik_do_chmury)
+	wordcloud.to_file(sciezka)
 
-	plt.imshow(wordcloud, interpolation="bilinear")
-	plt.axis("off")
-	plt.savefig(sciezka)
 	return
 
 def chmury_4_all(sciezka_in="Dane.txt", sciezka_out="Def", ilosc=3):
@@ -67,15 +65,19 @@ def chmury_z_grafik(wejscie_slownik, art, x=3):
 	for i in wejscie_slownik.keys():
 		if len(str(i)) >= x:
 			slownik_do_chmury[ str(i) ] = float( wejscie_slownik[i] )
+	zdjecie=Image.open('Chmury\\Grafiki_do_chmur\\'+art+'.jpg')
+	mask = np.array(zdjecie)
 	
-	mask = np.array(Image.open('Chmury\\Grafiki_do_chmur\\'+art+'.jpg'))
-	chmurka = WordCloud( background_color="white", mode="RGBA", max_words=3000, mask=mask, max_font_size=40, width=1600, height=800).generate_from_frequencies(slownik_do_chmury)
+	
+	chmurka = WordCloud( background_color="white", mode="RGB", mask=mask, max_font_size=50, max_words=3000, width=1500, height=1500, contour_width=0).generate_from_frequencies(slownik_do_chmury)
 	image_colors = ImageColorGenerator(mask)
-	plt.figure( figsize=(20,20) )
-	plt.imshow(wordcloud)
-	plt.imshow(chmurka.recolor(color_func=image_colors), interpolation="bilinear")
-	plt.axis("off")
-	plt.savefig('Chmury\\Grafochmurki\\'+art+'.png', format='png')
+	chmurka.recolor(color_func=image_colors)
+	chmurka.to_file('Chmury\\Grafochmurki\\'+art+'.jpg')
+	slowa=Image.open('Chmury\\Grafochmurki\\'+art+'.jpg')
+	slowa = slowa.resize(zdjecie.size)
+	polaczone = Image.blend(slowa,zdjecie,0.2)
+	polaczone.save('Chmury\\Grafochmurki\\'+art+'_z_tlem.jpg')
+
 
 def chmury_4_artysci(sciezka_in="Dane.txt", sciezka_out="Def", ilosc=3):
 	if not os.path.exists(sciezka_in):
