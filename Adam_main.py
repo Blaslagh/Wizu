@@ -41,6 +41,7 @@ def chmury_dla_wszystkich_nie_rob_plox():
 
 
 przetwarzanko.czytanko_dla_art()
+przetwarzanko.zapisz_czytanie()
 
 
 wizualizowanko.wykresuj_skomplikowanie_srednia("Dane")

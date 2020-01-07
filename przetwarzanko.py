@@ -137,9 +137,17 @@ def czytanko_dla_art(sciezka_in='Dane', sciezka_out='Czytanie', ilosc=10):
 			print( "N", end = '' )
 	return
 
-def zapisz_czytanie( slownik, sciezka_out='czytanie', x=1000 ):
-	zbior = ''.join(list( {k: v for k, v in sorted( slownik.items(), key=lambda item: int(item[1]), reverse=True)}.keys() )[0:x])
+def zapisz_czytanie( slownik=wczytywanko('Dane.txt'), sciezka_out='czytanie', x=1000 ):
+	for slowko in slownik.keys():
+		if len(slowko) < 5 :
+			slownik[slowko] = 0
+	zbior = ''
+	for i in list( {k: v for k, v in sorted( slownik.items(), key=lambda item: int(item[1]), reverse=True)}.keys() )[0:x]:
+		zbior = zbior.join([i,', '])
 	tts = gTTS(text=zbior, lang='pl', slow=True)
 	tts.save(sciezka_out+".mp3")
 	return
 
+def blagaj_o_3():
+	tts = gTTS(text="Panie Kreciku, błagamy niech pan da nam chociaż trzy", lang='pl', slow=True)
+	tts.save("blagam.mp3")
