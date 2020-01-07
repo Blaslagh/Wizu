@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import matplotlib.pyplot as plt
+import przetwarzanko, os
 
 def wykresuj_lata(wejscie, artysta):
 	plt.clf()
@@ -14,6 +15,7 @@ def wykresuj_lata(wejscie, artysta):
 	plt.ylabel(r"Ilość wydanych utworów")
 	plt.title(artysta)
 	plt.savefig("Lata\\wykresy\\"+artysta+".jpg")
+	return
 
 def wykresuj_lata_ograniczone(wejscie, artysta, srednia_wszyscy):
 	plt.clf()
@@ -34,7 +36,32 @@ def wykresuj_lata_ograniczone(wejscie, artysta, srednia_wszyscy):
 		plt.ylabel(r"Ilość wydanych utworów")
 		plt.title(artysta)
 	plt.savefig("Lata\\wykresy\\"+artysta+"_o.jpg")
-	plt.show()
+	return
 
 
-
+def wykresuj_skomplikowanie(wejscie):
+	if wejscie == False:
+		print("dupcia "+artysta)
+		return
+	x={}
+	for artysta in [x for x in os.listdir(wejscie) if not os.path.isdir(wejscie+'\\'+x)]:
+		try:
+			x[artysta[0:-4]]=przetwarzanko.skomplikowalnosc(przetwarzanko.wczytywanko(wejscie+'\\'+artysta))
+			print( "o", end = '' )
+		except:
+			print( "N", end = '' )
+	iksy = list(x.keys())
+	wysokosci = [ x[i] for i in iksy ]
+	plt.clf()
+	with plt.style.context('seaborn-darkgrid'):
+		plt.bar( iksy, wysokosci, )
+		plt.axhline(przetwarzanko.skomplikowalnosc(przetwarzanko.wczytywanko(wejscie+'.txt')), linestyle='--', color='dimgrey')
+		plt.grid(True)
+		plt.xticks(rotation='vertical')
+		plt.xlabel(r"Zespół")
+		plt.ylabel(r"Sumaryczna skomplikowalność tekstu")
+		plt.title("Ddd")
+		plt.margins(0.1)
+		plt.subplots_adjust(bottom=0.4)
+	plt.savefig("Skomplikowanie.jpg")
+	return
