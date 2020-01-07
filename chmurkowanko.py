@@ -65,13 +65,15 @@ def chmury_z_grafik(wejscie_slownik, art, x=3):
 	for i in wejscie_slownik.keys():
 		if len(str(i)) >= x:
 			slownik_do_chmury[ str(i) ] = float( wejscie_slownik[i] )
-
-	mask = np.array(Image.open('Chmury\\Grafiki_do_chmur\\'+art+'.jpg'))
+	zdjecie=Image.open('Chmury\\Grafiki_do_chmur\\'+art+'.jpg')
+	mask = np.array(zdjecie)
 	
 	
 	chmurka = WordCloud( background_color="white", mode="RGB", mask=mask, max_font_size=50, max_words=3000, width=1500, height=1500, contour_width=0).generate_from_frequencies(slownik_do_chmury)
 	image_colors = ImageColorGenerator(mask)
 	chmurka.recolor(color_func=image_colors)
-	chmurka.to_file('Chmury\\Grafochmurki\\'+art+'.png')
-
-	
+	chmurka.to_file('Chmury\\Grafochmurki\\'+art+'.jpg')
+	slowa=Image.open('Chmury\\Grafochmurki\\'+art+'.jpg')
+	slowa = slowa.resize(zdjecie.size)
+	polaczone = Image.blend(slowa,zdjecie,0.2)
+	polaczone.save('Chmury\\Grafochmurki\\'+art+'_z_tlem.jpg')
