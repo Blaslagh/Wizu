@@ -31,6 +31,10 @@ def chmury_dla_wszystkich_nie_rob_plox():
     chmurkowanko.chmury_4_all("Dane","Chmury4", 4)
     return
 
+for artysta in [x for x in os.listdir("Dane") if os.path.isdir('Dane\\'+x)]:
+    chmurkowanko.chmury_z_grafik(przetwarzanko.wczytywanko("Dane\\"+artysta+".txt"),artysta)
+
+
 
 wizualizowanko.wykresuj_skomplikowanie_suma("Dane")
 wizualizowanko.wykresuj_skomplikowanie_srednia("Dane")
