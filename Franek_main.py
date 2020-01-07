@@ -37,3 +37,6 @@ def chmury_dla_wszystkich_nie_rob_plox():
     return
 
 przetwarzanko.czytaj_10(przetwarzanko.wczytywanko("Dane.txt"))
+
+for artysta in [x for x in os.listdir('Dane') if os.path.isdir('Dane\\'+x)]:
+    chmurkowanko.chmury_z_grafik(przetwarzanko.wczytywanko('Dane\\'+artysta+'.txt'),artysta)
