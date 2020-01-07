@@ -69,7 +69,7 @@ def wykresuj_skomplikowanie_suma(wejscie):
 
 def wykresuj_skomplikowanie_srednia(wejscie):
 	if wejscie == False:
-		print("dupcia "+artysta)
+		print("dupcia ")
 		return
 	x={}
 	for artysta in [x for x in os.listdir(wejscie) if os.path.isdir(wejscie+'\\'+x)]:
@@ -88,13 +88,13 @@ def wykresuj_skomplikowanie_srednia(wejscie):
 	plt.clf()
 	with plt.style.context('seaborn-darkgrid'):
 		plt.bar( iksy, wysokosci, )
-		plt.axhline(przetwarzanko.skomplikowalnosc(przetwarzanko.wczytywanko(wejscie+'.txt')), linestyle='--', color='dimgrey')
+		plt.axhline(sum(wysokosci)/len(wysokosci), linestyle='--', color='dimgrey')
 		plt.grid(True)
 		plt.xticks(rotation='vertical')
 		plt.xlabel(r"Zespół")
-		plt.ylabel(r"Sumaryczna skomplikowalność tekstu")
+		plt.ylabel(r"Średnia skomplikowalność tekstu")
 		plt.title("Ddd")
 		plt.margins(0.1)
-		plt.subplots_adjust(bottom=0.4)
+		plt.subplots_adjust(bottom=1)
 	plt.savefig("Skomplikowanie_srednia.jpg")
 	return
