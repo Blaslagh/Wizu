@@ -35,7 +35,7 @@ def chmuruj_slownik_ponad_x(wejscie_slownik=przetwarzanko.wczytywanko("Dane.txt"
 	plt.savefig(sciezka)
 	return
 
-def chmury_4_all(sciezka_in, sciezka_out, ilosc):
+def chmury_4_all(sciezka_in="Dane.txt", sciezka_out="Def", ilosc=3):
 	if not os.path.exists(sciezka_in):
 		print("Ni ma")
 		return
@@ -56,7 +56,7 @@ def chmury_4_all(sciezka_in, sciezka_out, ilosc):
 		print( "\n", end = '' )
 	for artysta in [x for x in os.listdir(sciezka_in) if not os.path.isdir(sciezka_in+'\\'+x)]:
 		try:
-			chmuruj_slownik_ponad_x(przetwarzanko.wczytywanko(sciezka_in+'\\'+artysta+'.txt'),sciezka_out+'\\'+artysta+'.jpg', ilosc)
+			chmuruj_slownik_ponad_x(przetwarzanko.wczytywanko(sciezka_in+'\\'+artysta),sciezka_out+'\\'+artysta[0:-4]+'.jpg', ilosc)
 			print( "o", end = '' )
 		except:
 			print( "N", end = '' )
@@ -76,3 +76,18 @@ def chmury_z_grafik(wejscie_slownik, art, x=3):
 	plt.imshow(chmurka.recolor(color_func=image_colors), interpolation="bilinear")
 	plt.axis("off")
 	plt.savefig('Chmury\\Grafochmurki\\'+art+'.png', format='png')
+
+def chmury_4_artysci(sciezka_in="Dane.txt", sciezka_out="Def", ilosc=3):
+	if not os.path.exists(sciezka_in):
+		print("Ni ma")
+		return
+	lata={}
+	if not os.path.exists(sciezka_out):
+		os.makedirs(sciezka_out)
+	for artysta in [x for x in os.listdir(sciezka_in) if not os.path.isdir(sciezka_in+'\\'+x)]:
+		try:
+			chmuruj_slownik_ponad_x(przetwarzanko.wczytywanko(sciezka_in+'\\'+artysta),sciezka_out+'\\'+artysta[0:-4]+'.jpg', ilosc)
+			print( "o", end = '' )
+		except:
+			print( "N", end = '' )
+	return

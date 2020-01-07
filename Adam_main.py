@@ -39,6 +39,11 @@ def chmury_dla_wszystkich_nie_rob_plox():
 	chmurkowanko.chmury_4_all("Dane","Chmury4", 4)
 	return
 
-wykresy_po_latach()
-wizualizowanko.wykresuj_skomplikowanie_suma("Dane")
+
+przetwarzanko.czytanko_dla_art()
+
+
 wizualizowanko.wykresuj_skomplikowanie_srednia("Dane")
+wizualizowanko.wykresuj_skomplikowanie_suma("Dane")
+wizualizowanko.wykresuj_skomplikowanie_po_latach("Dane")
+
