@@ -32,5 +32,5 @@ def chmury_dla_wszystkich_nie_rob_plox():
     return
 
 
-
-wizualizowanko.wykresuj_skomplikowanie("Dane")
+wizualizowanko.wykresuj_skomplikowanie_suma("Dane")
+wizualizowanko.wykresuj_skomplikowanie_srednia("Dane")

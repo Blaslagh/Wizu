@@ -39,7 +39,7 @@ def wykresuj_lata_ograniczone(wejscie, artysta, srednia_wszyscy):
 	return
 
 
-def wykresuj_skomplikowanie(wejscie):
+def wykresuj_skomplikowanie_suma(wejscie):
 	if wejscie == False:
 		print("dupcia "+artysta)
 		return
@@ -64,4 +64,37 @@ def wykresuj_skomplikowanie(wejscie):
 		plt.margins(0.1)
 		plt.subplots_adjust(bottom=0.4)
 	plt.savefig("Skomplikowanie.jpg")
+	return
+
+
+def wykresuj_skomplikowanie_srednia(wejscie):
+	if wejscie == False:
+		print("dupcia "+artysta)
+		return
+	x={}
+	for artysta in [x for x in os.listdir(wejscie) if os.path.isdir(wejscie+'\\'+x)]:
+		cos=[]
+		for rok in [x for x in os.listdir(wejscie+'\\'+artysta) if not os.path.isdir(wejscie+'\\'+artysta+'\\'+x)]:
+			try:
+				wartosc = przetwarzanko.skomplikowalnosc( przetwarzanko.wczytywanko( wejscie+'\\'+artysta+'\\' + rok ) )
+				cos.append(wartosc)
+			except:
+				print("Stary coś poszło grubo nie tak "+wejscie+'\\'+artysta+'\\' + rok )
+		x[artysta[0:-4]] = sum(cos)/len(cos)
+			
+
+	iksy = list(x.keys())
+	wysokosci = [ x[i] for i in iksy ]
+	plt.clf()
+	with plt.style.context('seaborn-darkgrid'):
+		plt.bar( iksy, wysokosci, )
+		plt.axhline(przetwarzanko.skomplikowalnosc(przetwarzanko.wczytywanko(wejscie+'.txt')), linestyle='--', color='dimgrey')
+		plt.grid(True)
+		plt.xticks(rotation='vertical')
+		plt.xlabel(r"Zespół")
+		plt.ylabel(r"Sumaryczna skomplikowalność tekstu")
+		plt.title("Ddd")
+		plt.margins(0.1)
+		plt.subplots_adjust(bottom=0.4)
+	plt.savefig("Skomplikowanie_srednia.jpg")
 	return
