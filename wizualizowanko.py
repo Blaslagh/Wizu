@@ -27,7 +27,7 @@ def wykresuj_lata_ograniczone(wejscie, artysta, srednia_wszyscy):
 	with plt.style.context('seaborn-darkgrid'):
 		plt.plot( x, y, 'ro' )
 		plt.axhline(y_srednia, linestyle='--')
-		plt.axhline(all_srednia, linestyle='--')
+		plt.axhline(all_srednia, linestyle='--', color='dimgrey')
 		plt.grid(True)
 		plt.xlim(min(x)-2, 2020)
 		plt.xlabel(r"Rok")
