@@ -9,6 +9,8 @@ os.chdir("C:\\Users\\Adam\\Source\\Repos\\Blaslagh\\Wizu")
 
 import pobieranko, przetwarzanko, wizualizowanko, chmurkowanko
 
+przetwarzanko.blagaj_o_3()
+
 def od_zera_do_bohatera_nie_rob_bo_zamulisz_se_kompa():
 	pobieranko.pobierz_od_zera()
 	przetwarzanko.sumuj_lata("Dane")
