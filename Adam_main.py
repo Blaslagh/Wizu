@@ -9,7 +9,7 @@ os.chdir("C:\\Users\\Adam\\Source\\Repos\\Blaslagh\\Wizu")
 
 import pobieranko, przetwarzanko, wizualizowanko, chmurkowanko
 
-def od_zera_do_bohatera_nie_rob_plox():
+def od_zera_do_bohatera_nie_rob_bo_zamulisz_se_kompa():
 	pobieranko.pobierz_od_zera()
 	przetwarzanko.sumuj_lata("Dane")
 	przetwarzanko.analizka_lat("Dane")
@@ -34,7 +34,7 @@ def wykresy_po_latach():
 		wizualizowanko.wykresuj_lata_ograniczone(przetwarzanko.wczytywanko("Lata\\"+art+".txt"), art, srednia_wszystkich())
 	return
 
-def chmury_dla_wszystkich_nie_rob_plox():
+def chmury_dla_wszystkich_nie_rob_bo_zamulisz_se_kompa():
 	chmurkowanko.chmury_4_all("Dane","Chmury3", 3)
 	chmurkowanko.chmury_4_all("Dane","Chmury4", 4)
 	return
